@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>typechange</name>
+    <version>1.0.5</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>fix bug update</summary>
+    <description>fix bug update</description>
+    <notes>fix bug update</notes>
+    <authors><author><name>Septsite</name><user>septsite</user><email>biuro@septsite.pl</email></author></authors>
+    <date>2012-11-23</date>
+    <time>16:46:13</time>
+    <contents><target name="magecommunity"><dir name="Septsite"><dir name="TypeChange"><dir name="Helper"><file name="Data.php" hash="ca0142f7a0deb754e2379e381126a907"/></dir><dir name="Model"><file name="Observer.php" hash="528282cd176c8c026aeea6d82d596d58"/><dir name="_notes"><file name="dwsync.xml" hash="1514bc17daf365cc8335a4ea36c00a4e"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Catalog"><file name="ProductController.php" hash="974ddc8b1d90255027856e89f6763140"/><dir name="_notes"><file name="dwsync.xml" hash="af0dabb754fc92a3dc357bad961f1d15"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="8673a3dc75dec08a4ea55a83982df4a1"/></dir></dir></dir></target><target name="magelocale"><dir name="pl_PL"><file name="Septsite_TypeChange.csv" hash=""/></dir><dir name="en_US"><file name="Septsite_TypeChange.csv" hash=""/></dir></target><target name="mageetc"><dir name="modules"><file name="Septsite_TypeChange.xml" hash="3703c1436c897da70119919fc60e083a"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

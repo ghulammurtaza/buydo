@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mediastrategi_Shadowmedia</name>
+    <version>0.5.3</version>
+    <stability>stable</stability>
+    <license uri="http://www.mediastrategi.se/license/">Mediastrategi EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Shadowmedia Lite for Magento is an extension that makes it possible to show a responsive lightbox with information. Show images, movies or text as visitors enters your shop from the front page or any other page in your shop. Just use the Magento text editor to add the information you need.</summary>
+    <description>Shadowmedia Lite for Magento is an extension that makes it possible to show a responsive lightbox with information. Show images, movies or text as visitors enters your shop from the front page or any other page in your shop. Just use the Magento text editor to add the information you need.&#xD;
+&#xD;
+You can also choose how often the lightbox will appear for returning visitors using the following alternatives: always, seconds, minutes, hours, days, weeks, months and years in the Shadowmedia parameter settings.&#xD;
+&#xD;
+This is the perfect extensions when you want to promote a special event, campaign or have something important that you want to say to your visitors!&#xD;
+&#xD;
+Features - Lite version:&#xD;
+- Responsive lightbox&#xD;
+- Possible to show, text, images and movies - using the Magento text editor&#xD;
+- Add links and set destination url (used for banners, text etc)&#xD;
+- Set interval parameters for the lightbox to control when it will appear again for returning visitors</description>
+    <notes>New option - Should box always be centered and positioned fixed.</notes>
+    <authors><author><name>Mediastrategi</name><user>mediastrategi</user><email>support@mediastrategi.se</email></author></authors>
+    <date>2015-04-07</date>
+    <time>14:25:29</time>
+    <contents><target name="magelocal"><dir name="Mediastrategi"><dir name="Shadowmedia"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><file name="Editor.php" hash="7bcbaaa0d041f2d83b7da33e0a5cfe90"/></dir></dir></dir><file name="Shadowmedia.php" hash="ff062bde4bd084e9594b025874f15fdd"/></dir><dir name="Model"><dir name="Source"><file name="Effects.php" hash="ddaed5d721806280230a83d4a541562a"/><file name="Fixed.php" hash="6c0f74cbd5b4f0b834a915e152b6cb8a"/><file name="Units.php" hash="927b4c0ed8fdfaca32526e860a6f0537"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="06ce8a89fff0363f612c1f61ff172cd7"/><file name="config.xml" hash="abcc9af63ede2feec508a654b4c784ce"/><file name="system.xml" hash="f18f4fae10797c8edfe55ec162d6f6db"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mediastrategi_Shadowmedia.xml" hash="13b51e1e41f4456e4de03147c28849f1"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="mediastrategi_shadowmedia.xml" hash="9483ee317d8ccdec6b6b77869aabbfa4"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="mediastrategi_shadowmedia.xml" hash="55e74af26a614922237ef2ff12382e5f"/></dir><dir name="template"><dir name="mediastrategi_shadowmedia"><file name="shadowmedia.phtml" hash="f22b8c3183625797320f145a550f2c82"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="mediastrategi_shadowmedia.css" hash="82e2c29716fa79b357cb2c4e8d7beb84"/></dir><dir name="js"><file name="mediastrategi_shadowmedia.js" hash="8fa6991ee3969fc4ce4d4a3f19b1fe6a"/><file name="jquery.fitvids.js" hash="8d641f726c1938c3fc006484939efc1e"/></dir><dir name="images"><dir name="mediastrategi_shadowmedia"><file name="close.png" hash="8539b3d9600fd90dbcf4b6138292593a"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,42 @@
+[22-Feb-2015 19:22:27 UTC] PHP Fatal error:  Call to a member function getAttributeCode() on a non-object in /home/pickyweb/public_html/beta_buydokha/app/code/core/Mage/Catalog/Model/Product/Type/Configurable.php on line 404
+[22-Feb-2015 19:22:35 UTC] PHP Fatal error:  Call to a member function getAttributeCode() on a non-object in /home/pickyweb/public_html/beta_buydokha/app/code/core/Mage/Catalog/Model/Product/Type/Configurable.php on line 404
+[22-Feb-2015 19:23:15 UTC] PHP Fatal error:  Call to a member function getAttributeCode() on a non-object in /home/pickyweb/public_html/beta_buydokha/app/code/core/Mage/Catalog/Model/Product/Type/Configurable.php on line 404
+[11-Mar-2015 08:48:14 UTC] PHP Fatal error:  Call to a member function validate() on a non-object in /home/pickyweb/public_html/beta_buydokha/app/code/core/Mage/Paypal/Model/Standard.php on line 137
+[12-Mar-2015 19:21:15 UTC] PHP Fatal error:  Call to a member function validate() on a non-object in /home/pickyweb/public_html/beta_buydokha/app/code/core/Mage/Paypal/Model/Standard.php on line 137
+[16-Mar-2015 08:58:19 UTC] PHP Fatal error:  Call to a member function validate() on a non-object in /home/pickyweb/public_html/beta_buydokha/app/code/core/Mage/Paypal/Model/Standard.php on line 137
+[16-Mar-2015 09:45:31 UTC] PHP Fatal error:  Call to a member function validate() on a non-object in /home/pickyweb/public_html/beta_buydokha/app/code/core/Mage/Paypal/Model/Standard.php on line 137
+[16-Mar-2015 10:14:29 UTC] PHP Fatal error:  Call to a member function validate() on a non-object in /home/pickyweb/public_html/beta_buydokha/app/code/core/Mage/Paypal/Model/Standard.php on line 137
+[26-Mar-2015 08:55:51 UTC] PHP Fatal error:  Call to a member function validate() on a non-object in /home/pickyweb/public_html/buydokhaonline/app/code/core/Mage/Paypal/Model/Standard.php on line 137
+[20-Apr-2015 19:25:17 UTC] PHP Fatal error:  Call to a member function validate() on a non-object in /home/pickyweb/public_html/buydokhaonline/app/code/core/Mage/Paypal/Model/Standard.php on line 137
+[21-Apr-2015 13:52:24 UTC] PHP Fatal error:  Call to a member function validate() on a non-object in /home/pickyweb/public_html/buydokhaonline/app/code/core/Mage/Paypal/Model/Standard.php on line 137
+[05-Jul-2015 11:31:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'File '/home/pickyweb/public_html/buydokhaonline/media/catalog/' does not exists.' in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php:96
+Stack trace:
+#0 /home/pickyweb/public_html/buydokhaonline/get.php(205): Varien_File_Transfer_Adapter_Http->send('/home/pickyweb/...')
+#1 /home/pickyweb/public_html/buydokhaonline/get.php(165): sendFile('/home/pickyweb/...')
+#2 {main}
+  thrown in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php on line 96
+[05-Jul-2015 11:31:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'File '/home/pickyweb/public_html/buydokhaonline/media/catalog/product/cache/1/small_image/260x260/' does not exists.' in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php:96
+Stack trace:
+#0 /home/pickyweb/public_html/buydokhaonline/get.php(205): Varien_File_Transfer_Adapter_Http->send('/home/pickyweb/...')
+#1 /home/pickyweb/public_html/buydokhaonline/get.php(165): sendFile('/home/pickyweb/...')
+#2 {main}
+  thrown in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php on line 96
+[05-Jul-2015 11:31:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'File '/home/pickyweb/public_html/buydokhaonline/media/catalog/product/cache/1/small_image/' does not exists.' in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php:96
+Stack trace:
+#0 /home/pickyweb/public_html/buydokhaonline/get.php(205): Varien_File_Transfer_Adapter_Http->send('/home/pickyweb/...')
+#1 /home/pickyweb/public_html/buydokhaonline/get.php(165): sendFile('/home/pickyweb/...')
+#2 {main}
+  thrown in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php on line 96
+[05-Jul-2015 11:31:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'File '/home/pickyweb/public_html/buydokhaonline/media/catalog/product/cache/1/' does not exists.' in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php:96
+Stack trace:
+#0 /home/pickyweb/public_html/buydokhaonline/get.php(205): Varien_File_Transfer_Adapter_Http->send('/home/pickyweb/...')
+#1 /home/pickyweb/public_html/buydokhaonline/get.php(165): sendFile('/home/pickyweb/...')
+#2 {main}
+  thrown in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php on line 96
+[05-Jul-2015 11:31:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'File '/home/pickyweb/public_html/buydokhaonline/media/catalog/product/cache/1/small_image/260x260/9df78eab33525d08d6e5fb8d27136e95/i/' does not exists.' in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php:96
+Stack trace:
+#0 /home/pickyweb/public_html/buydokhaonline/get.php(205): Varien_File_Transfer_Adapter_Http->send('/home/pickyweb/...')
+#1 /home/pickyweb/public_html/buydokhaonline/get.php(165): sendFile('/home/pickyweb/...')
+#2 {main}
+  thrown in /home/pickyweb/public_html/buydokhaonline/lib/Varien/File/Transfer/Adapter/Http.php on line 96
+[06-Jul-2015 02:46:01 UTC] PHP Fatal error:  Call to a member function validate() on a non-object in /home/pickyweb/public_html/buydokhaonline/app/code/core/Mage/Paypal/Model/Standard.php on line 137
