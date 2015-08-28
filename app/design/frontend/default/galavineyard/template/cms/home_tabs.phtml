@@ -1,0 +1,22 @@
+<!-- content-home-tabs -->
+<div class="featured-wine">
+    <h3><?php echo $this->__('Featured Dokha') ?></h3>
+    <div id ="home-tabs" class="content-tabs">	
+    	<!-- ul tabs -->
+    	<ul>
+    		<li><h2><a href="#tabs_best"><span><?php echo $this->__('Best Sellers') ?></span></a></h2></li>
+    		<li><h2><a href="#tabs_new"><span><?php echo $this->__('New Arrival') ?></span></a></h2></li>		
+<!--            <li><h2><a href="#tabs_coming"><span><?php //echo $this->__('Coming Soon') ?></span></a></h2></li>
+-->    		<li><h2><a href="#tabs_editor"><span><?php echo $this->__("Editor's Choice") ?></span></a></h2></li>
+            <li><h2><a href="#tabs_customer"><span><?php echo $this->__("Customer's Choice") ?></span></a></h2></li>
+    		<li><h2><a href="#tabs_specials"><span><?php echo $this->__('Special sale-off') ?></span></a></h2></li>
+    	</ul>	
+    	<div id="tabs_best" class="tab-item"><?php echo $this->getChildHtml('galavineyard_home_bestseller_tabs') ?></div>
+        <div id="tabs_new" class="tab-item"><?php echo $this->getChildHtml('galavineyard_home_new_arrival_tabs') ?></div>
+        <div id="tabs_coming" class="tab-item"><?php echo $this->getChildHtml('galavineyard_home_comingsoon_tabs') ?></div>
+        <div id="tabs_editor" class="tab-item"><?php echo $this->getChildHtml('galavineyard_home_editor_choice_tabs') ?></div>
+        <div id="tabs_customer" class="tab-item"><?php echo $this->getChildHtml('galavineyard_home_customer_choice_tabs') ?></div>
+        <div id="tabs_specials" class="tab-item"><?php echo $this->getChildHtml('galavineyard_home_special_tabs') ?></div>	
+    </div>
+</div>
+<!-- endhometabs-->

@@ -1,0 +1,26 @@
+<?php
+	$feeds = $this->getFeed();
+?>
+<?php $this->getSize() ?>
+<div class="widget widget-feed">
+    <ul class="products-grid products-grid-<?php echo $this->getCount();?> feed-list">
+    <?php foreach($feeds as $feed): ?>
+    	<li class="item feed-item">
+    		<div class="left-feed">
+    			<?php if($this->getShowImage() == "true"): ?>
+    			<?php echo $feed->getImage() ?>
+    			<?php endif ?>
+    		</div>
+    		<div class="right-feed">                
+    			<h2 class="feed-title"><?php if($this->getShowTitle() == "true"): ?><a href="<?php echo $feed->getLink() ?>"><?php echo $feed->getTitle() ?></a><?php endif ?></h2>
+                <?php if($this->getShowDesc() == "true"): ?>
+                <div class="feed-content">
+    				<?php echo $feed->getDescription() ?>
+    			</div>
+                <?php endif ?>
+    			<?php if($this->getShowDate() == "true"): ?><p class="feed-date"><?php echo $feed->getDate() ?></p><?php endif ?>  			
+    		</div>
+    	</li>
+    <?php endforeach ?>
+    </ul>
+</div>

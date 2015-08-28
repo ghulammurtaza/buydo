@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sample_data>
+  <staticblock>
+    <block id="6">
+      <title><![CDATA[Galavineyard Main Slideshow]]></title>
+      <identifier><![CDATA[galavineyard_mainslideshow]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div>{{widget type="slideshow2/slideshow2" slideshow="1"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="7">
+      <title><![CDATA[Galavineyard Sample Vertical Menu Left]]></title>
+      <identifier><![CDATA[galavineyard_sample_vertical_menu_left]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div>{{widget type="megamenupro/megamenupro" menu="3"}}</div>]]></content>
+      <is_active><![CDATA[0]]></is_active>
+    </block>
+    <block id="8">
+      <title><![CDATA[Galavineyard Sample Vertical Menu Right]]></title>
+      <identifier><![CDATA[galavineyard_sample_vertical_menu_right]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div>{{widget type="megamenupro/megamenupro" menu="4"}}</div>]]></content>
+      <is_active><![CDATA[0]]></is_active>
+    </block>
+    <block id="9">
+      <title><![CDATA[GalaVineyard Home Information]]></title>
+      <identifier><![CDATA[galavineyard_home_information]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="home-information">
+<div class="grid_8 alpha">
+<p class="info-title">Hotline</p>
+<p class="phone">{{config path="general/store_information/phone"}}</p>
+</div>
+<div class="grid_8">
+<p class="info-title">New to wine?</p>
+<p class="text"><img src="{{skin url='images/img_wine.png'}}" alt="sample-banner" /> View<strong><span> WINE TYPES</span></strong></p>
+</div>
+<div class="grid_8 omega">
+<p class="info-title">Follow us</p>
+<ul class="none">
+<li><a title="facebook" href="#"><span class="icon facebook">Facebook</span></a></li>
+<li><a title="twitter" href="#"><span class="icon twitter">Twitter</span></a></li>
+<li><a title="pinterest" href="#"><span class="icon pinterest">Pinterest</span></a></li>
+<li><a title="rss" href="#"><span class="icon rss">Rss</span></a></li>
+</ul>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="10">
+      <title><![CDATA[GalaVineyard Home Featured Category]]></title>
+      <identifier><![CDATA[galavineyard_home_featured_category]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="featured-category">
+<h3>Featured Category</h3>
+<div>{{block type="core/template" name="featured_category" template="cms/featured_category.phtml"}}</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="11">
+      <title><![CDATA[GalaVineyard Home Bestseller Tabs]]></title>
+      <identifier><![CDATA[galavineyard_home_bestseller_tabs]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="set-top-left">{{widget type="bestsellerproducts/list" new_category="3" limit_count="9" column_count="3" thumbnail_width="260" thumbnail_height="260" show_product_name="true" show_thumbnail="true" show_description="false" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="custom_template"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="12">
+      <title><![CDATA[GalaVineyard Home New Arrival Tabs]]></title>
+      <identifier><![CDATA[galavineyard_home_new_arrival_tabs]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="set-top-left">{{widget type="newproducts/list" limit_count="9" column_count="3" order_by="name asc" thumbnail_width="260" thumbnail_height="260" show_product_name="true" show_thumbnail="true" show_description="false" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="custom_template"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="13">
+      <title><![CDATA[GalaVineyard Home Comingsoon Tabs]]></title>
+      <identifier><![CDATA[galavineyard_home_comingsoon_tabs]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="set-top-left">{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" featured_choose="em_featured" limit_count="9" column_count="3" thumbnail_width="260" thumbnail_height="260" show_product_name="true" show_thumbnail="true" show_description="false" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="custom_template"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="14">
+      <title><![CDATA[GalaVineyard Home Editor Choice Tabs]]></title>
+      <identifier><![CDATA[galavineyard_home_editor_choice_tabs]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="set-top-left">{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" featured_choose="em_hot" limit_count="9" column_count="3" thumbnail_width="260" thumbnail_height="260" show_product_name="true" show_thumbnail="true" show_description="false" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="custom_template"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="15">
+      <title><![CDATA[GalaVineyard Home Customer Choice Tabs]]></title>
+      <identifier><![CDATA[galavineyard_home_customer_choice_tabs]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="set-top-left">{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" featured_choose="em_deal" limit_count="9" column_count="3" thumbnail_width="260" thumbnail_height="260" show_product_name="true" show_thumbnail="true" show_description="false" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="custom_template"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="16">
+      <title><![CDATA[GalaVineyard Home Special Tabs]]></title>
+      <identifier><![CDATA[galavineyard_home_special_tabs]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="set-top-left">{{widget type="saleproducts/list" order_by="name asc" limit_count="9" column_count="3" thumbnail_width="260" thumbnail_height="260" show_product_name="true" show_thumbnail="true" show_description="false" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="custom_template"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="17">
+      <title><![CDATA[GalaVineyard Home Banner]]></title>
+      <identifier><![CDATA[galavineyard_home_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="home-banner first">
+<div class="grid_2 alpha">space</div>
+<div class="grid_20"><a title="sample-banner" href="#"><img class="fluid" src="{{media url="wysiwyg/home_banner_01.jpg"}}" alt="" /></a></div>
+<div class="grid_2 omega">space</div>
+</div>
+<div class="home-banner">
+<div class="grid_2 alpha">space</div>
+<div class="grid_20 three-banners"><a title="sample-banner" href="#"><img class="fluid" src="{{media url="wysiwyg/home_banner_02.jpg"}}" alt="" /></a> <a title="sample-banner" href="#"><img class="fluid" src="{{media url="wysiwyg/home_banner_03.jpg"}}" alt="" /></a> <a title="sample-banner" href="#"><img class="fluid" src="{{media url="wysiwyg/home_banner_04.jpg"}}" alt="" /></a></div>
+<div class="grid_2 alpha">space</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="18">
+      <title><![CDATA[GalaVineyard Footer Information]]></title>
+      <identifier><![CDATA[galavineyard_footer_information]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="info-top"><a title="Gala Vineyard Magento Theme" href="#"><img src="{{skin url='images/footer-logo.png'}}" alt="" /></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, <br />eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+</div>
+<div id="footer-information" class="box text">
+<div class="grid_6 alpha content">
+<p class="h5">about vineyard</p>
+<ul>
+<li><a href="{{store direct_url=''}}customer/account/">Your Account</a></li>
+<li><a href="#">Track Your</a></li>
+<li><a href="{{store direct_url=''}}sales/order/history/">Order</a></li>
+<li><a href="#">View Past Order</a></li>
+<li><a href="#">View Shipping</a></li>
+<li><a href="{{store direct_url=''}}customer/address/">Address Book</a></li>
+</ul>
+</div>
+<div class="grid_6 content">
+<p class="h5">why buy from us</p>
+<ul>
+<li><a href="{{store direct_url=''}}checkout/cart/">View Cart</a></li>
+<li><a href="{{store direct_url=''}}customer/account/">My Account</a></li>
+<li><a href="{{store direct_url=''}}sales/order/history/">Order Status</a></li>
+<li><a href="#">Shop By Brand</a></li>
+<li><a href="#">Trade-in Program</a></li>
+</ul>
+</div>
+<div class="grid_6 content">
+<p class="h5">assistance</p>
+<ul>
+<li><a href="{{store direct_url=''}}about-magento-demo-store">About Us</a></li>
+<li><a href="#">Customer Service</a></li>
+<li><a href="{{store direct_url=''}}privacy-policy-cookie-restriction-mode">Privacy Policy</a></li>
+<li><a href="#">Rebate Center</a></li>
+<li><a href="#">Testimonial</a></li>
+</ul>
+</div>
+<div class="grid_6 omega content">
+<p class="h5">store locations</p>
+<div>
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elitos et pellentesque convallis.</p>
+<p>-----</p>
+<p>{{config path="general/store_information/address"}}</p>
+<p class="secondary"><span class="icon phone">icon</span><a>{{config path="general/store_information/phone"}}</a></p>
+<p>{{config path="trans_email/ident_general/email"}}</p>
+</div>
+</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="19">
+      <title><![CDATA[GalaVineyard Footer Payment]]></title>
+      <identifier><![CDATA[galavineyard_footer_payment]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p class="footer-logo">
+<a href="#"><span class="brand-logo paypal">Paypal</span></a>
+<a href="#"><span class="brand-logo visa">Visa</span></a> 
+<a href="#"><span class="brand-logo american">American Express</span></a>
+<a href="#"><span class="brand-logo master">MasterCard</span></a> 
+<a href="#"><span class="brand-logo dhl">DHL</span></a> 
+<a href="#"><span class="brand-logo FedEx">FedEx</span></a> 
+</p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="20">
+      <title><![CDATA[GalaVineyard Sidebar Recent Review]]></title>
+      <identifier><![CDATA[galavineyard_sidebar_recent_review]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div>{{widget type="recentreviewproducts/list" limit_count="2" order_by="name asc" frontend_title="Recent Reviews" thumbnail_width="70" thumbnail_height="70" show_product_name="true" show_thumbnail="true" show_price="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_recentviewproducts/list_products_simple.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="21">
+      <title><![CDATA[GalaVineyard Category Details Sidebar Banner]]></title>
+      <identifier><![CDATA[galavineyard_category_details_sidebar_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p class="block"><a title="sample-banner" href="#"><img class="fluid" src="{{media url="wysiwyg/sidebar_banner.jpg"}}" alt="" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="22">
+      <title><![CDATA[GalaVineyard Checkout Sidebar Banner 01]]></title>
+      <identifier><![CDATA[galavineyard_checkout_sidebar_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p class="block"><a title="sample-banner" href="#"><img class="fluid" src="{{media url="wysiwyg/sidebar_banner_01.jpg"}}" alt="" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="23">
+      <title><![CDATA[Galavineyard Home From Our Blog]]></title>
+      <identifier><![CDATA[galavineyard_home_from_our_blog]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div class="from-our-blog widgets_home">
+<div class="widget-title">
+<h3><span>From Our Blog</span></h3>
+</div>
+<div class="widget-content">{{widget type="newsfeedwidget/List" feed_link="http://galathemes.com/blog/feed" show_author="true" show_date="true" date_format="write on %Y-%m-%d" show_title="true" show_desc="true" show_image="true" image_size="275;336" more_link="http://galathemes.com/" more_text="Show more" count="4" template="em_newsfeedwidget/list.phtml"}}</div>
+</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+    <block id="24">
+      <title><![CDATA[GalaVineyard Login Sidebar Banner]]></title>
+      <identifier><![CDATA[galavineyard_login_sidebar_banner]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<p>Your account are being protected by</p>
+<p class="block"><a class="banner" title="sample-banner" href="#"><img class="fluid" src="{{media url="wysiwyg/sidebar_banner_02.png"}}" alt="" /></a></p>
+<p class="block"><a title="sample-banner" href="#"><img class="fluid" src="{{media url="wysiwyg/sidebar_banner_03.jpg"}}" alt="" /></a></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+    </block>
+  </staticblock>
+  <cmspage>
+    <page id="7">
+      <title><![CDATA[Gala Vineyard Magento Theme - Homepage]]></title>
+      <identifier><![CDATA[galavineyard_home]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<div>&nbsp;&nbsp;</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+      <root_template><![CDATA[one_column]]></root_template>
+      <meta_keywords><![CDATA[]]></meta_keywords>
+      <meta_description><![CDATA[]]></meta_description>
+      <content_heading><![CDATA[]]></content_heading>
+      <sort_order><![CDATA[0]]></sort_order>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <custom_theme><![CDATA[]]></custom_theme>
+      <custom_root_template><![CDATA[]]></custom_root_template>
+      <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+      <custom_theme_from><![CDATA[]]></custom_theme_from>
+      <custom_theme_to><![CDATA[]]></custom_theme_to>
+    </page>
+    <page id="8">
+      <title><![CDATA[Gala Vineyard Typography]]></title>
+      <identifier><![CDATA[galavineyard_typography]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<h2>General Elements</h2>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<ul>
+<li>Bullet List 1</li>
+<ul>
+<li>Bullet List 1.1</li>
+<li>Bullet List 1.2</li>
+<li>Bullet List 1.3</li>
+<li>Bullet List 1.4</li>
+</ul>
+<li>Bullet List 2</li>
+<li>Bullet List 3</li>
+<li>Bullet List 4</li>
+</ul>
+<ol>
+<li>Number List 1</li>
+<ol>
+<li>Number List 1.1</li>
+<li>Number List 1.2</li>
+<li>Number List 1.3</li>
+<li>Number List 1.4</li>
+</ol>
+<li>Number List 2</li>
+<li>Number List 3</li>
+<li>Number List 4</li>
+</ol><dl><dt>Definition title dt</dt><dd>Defination description dd</dd><dt>Definition title dt</dt><dd>Defination description dd</dd></dl>
+<p><code>Code tag:&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code></p>
+<blockquote>
+<p>block quote&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</blockquote>
+<div class="box f-left">element with class <strong>.f-left</strong></div>
+<div class="box f-right">element with class <strong>.f-right</strong></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Tables</h2>
+<p>Table with class <strong>.data-table</strong></p>
+<table class="data-table" style="width: 100%;" border="0">
+<thead>
+<tr><th>THEAD TH</th><th>THEAD TH</th><th>THEAD TH</th><th>THEAD TH</th><th>THEAD TH</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+</tr>
+<tr>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+</tr>
+<tr>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+<td>TBODY TD</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Custom CSS Classes</h2>
+<p class="small">tag <strong>small</strong> and class <strong>.small</strong></p>
+<p class="underline">element with class <strong>.underline</strong></p>
+<p><strong>ul.none</strong> and <strong>ol.none</strong>:</p>
+<ul class="none">
+<li>Bullet List 1</li>
+<ul>
+<li>Bullet List 1.1</li>
+<li>Bullet List 1.2</li>
+<li>Bullet List 1.3</li>
+<li>Bullet List 1.4</li>
+</ul>
+<li>Bullet List 2</li>
+<li>Bullet List 3</li>
+<li>Bullet List 4</li>
+</ul>
+<p><strong>ul.hoz</strong> and <strong>ol.hoz</strong>:</p>
+<ul class="hoz">
+<li>Bullet List 1</li>
+<li>Bullet List 2</li>
+<li>Bullet List 3</li>
+<li>Bullet List 4</li>
+</ul>
+<div class="box">
+<p>paragraph with class <strong>.box</strong>:</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<p class="bottom">Paragraph with class <strong>.bottom</strong> always has margin-bottom = 0.</p>
+<p>Add class <strong>.hide-lte2</strong> to hide element when screen's width less than 1280px.</p>
+<p class="box hide-lte2">This block will disappear when resize window less than 1280px</p>
+<p>Add class <strong>.hide-lte1</strong> to hide element when screen's width less than 980px.</p>
+<p class="box hide-lte1">This block will disappear when resize window less than 980px</p>
+<p>Add class <strong>.hide-lte0</strong> to hide element when screen's width less than 760px.</p>
+<p class="box hide-lte0">This block will disappear when resize window less than 760px</p>
+<p>&nbsp;</p>
+<h2>Icons</h2>
+<table class="data-table" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<p>.icon.facebook</p>
+<p><span class="icon facebook">span.icon.facebook</span></p>
+</td>
+<td align="center" valign="top">
+<p>.icon.twitter</p>
+<p><span class="icon twitter">span.icon.twitter</span></p>
+</td>
+<td align="center" valign="top">
+<p>.icon.pinterest</p>
+<p><span class="icon pinterest">span.icon.pinterest</span></p>
+</td>
+<td align="center" valign="top">
+<p>.icon.rss</p>
+<p><span class="icon rss">span.icon.rss</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table class="data-table" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<p>.icon.topcart</p>
+<p class="em-top-cart"><a class="top-link-cart"><span class="label-top-cart">span.icon.topcart</span></a></p>
+</td>
+<td align="center" valign="top">
+<p>.icon.search</p>
+<div class="form-search"><button class="button"><span><span>span.icon.search</span></span></button></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Logo</h2>
+<table class="data-table" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<p>.brand-logo.paypal</p>
+<p><span class="brand-logo paypal">span.brand-logo.paypal</span></p>
+</td>
+<td align="center" valign="top">
+<p>.brand-logo.visa</p>
+<p><span class="brand-logo visa">span.brand-logo.visa</span></p>
+</td>
+<td align="center" valign="top">
+<p>.brand-logo.american</p>
+<p><span class="brand-logo american">span.brand-logo.american</span></p>
+</td>
+<td align="center" valign="top">
+<p>.brand-logo.master</p>
+<p><span class="brand-logo master">span.brand-logo.master</span></p>
+</td>
+<td align="center" valign="top">
+<p>.brand-logo.dhl</p>
+<p><span class="brand-logo dhl">span.brand-logo.dhl</span></p>
+</td>
+<td align="center" valign="top">
+<p>.brand-logo.FedEx</p>
+<p><span class="brand-logo FedEx">span.brand-logo.FedEx</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>Label</h2>
+<table class="data-table" border="0">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<p>.icon.new</p>
+<p><span class="icon new">span.icon.new</span></p>
+</td>
+<td align="center" valign="top">
+<p>.icon.sale</p>
+<p><span class="icon sale">span.icon.sale</span></p>
+</td>
+<td align="center" valign="top">
+<p>.icon.bestseller</p>
+<p><span class="icon bestseller">span.icon.bestseller</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>image with class <strong>.fluid</strong>:</p>
+<p><img class="fluid" title="image with class .fluid" src="{{media url="wysiwyg/home_banner_01.jpg"}}" alt="image with class .fluid" /></p>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+      <root_template><![CDATA[one_column]]></root_template>
+      <meta_keywords><![CDATA[]]></meta_keywords>
+      <meta_description><![CDATA[]]></meta_description>
+      <content_heading><![CDATA[Typography]]></content_heading>
+      <sort_order><![CDATA[0]]></sort_order>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <custom_theme><![CDATA[]]></custom_theme>
+      <custom_root_template><![CDATA[]]></custom_root_template>
+      <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+      <custom_theme_from><![CDATA[]]></custom_theme_from>
+      <custom_theme_to><![CDATA[]]></custom_theme_to>
+    </page>
+    <page id="9">
+      <title><![CDATA[Gala Vineyard Widgets Demo]]></title>
+      <identifier><![CDATA[galavineyard_widgets]]></identifier>
+      <store_id><![CDATA[a:1:{i:0;s:1:"0";}]]></store_id>
+      <content><![CDATA[<h2>Demo EM Slideshow Widget</h2>
+<div>{{widget type="slideshow2/slideshow2" slideshow="1"}}</div>
+<hr />
+<h2>Demo EM Recent Reviewed Widget</h2>
+<h3>Demo List View</h3>
+<div>{{widget type="recentreviewproducts/list" limit_count="3" order_by="name asc" thumbnail_width="150" thumbnail_height="150" show_product_name="true" show_thumbnail="true" show_price="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_recentviewproducts/list_products_simple.phtml"}}</div>
+<hr />
+<h3>Demo Grid View</h3>
+<div>{{widget type="recentreviewproducts/list" limit_count="3" order_by="name asc" item_width="195" thumbnail_width="195" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_price="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_recentviewproducts/grid_products_simple.phtml"}}</div>
+<hr />
+<h2>Demo EM Featured Products Widget</h2>
+<h3>Demo List View</h3>
+<div>{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" featured_choose="em_featured" limit_count="3" thumbnail_width="195" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_featured_products/featured_list.phtml"}}</div>
+<hr />
+<h3>Demo Grid View</h3>
+<div>{{widget type="dynamicproducts/dynamicproducts" order_by="name asc" featured_choose="em_featured" limit_count="3" item_width="195" thumbnail_width="195" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_featured_products/featured_grid.phtml"}}</div>
+<hr />
+<h2>Demo EM Bestseller Products Widget</h2>
+<h3>Demo List View</h3>
+<div>{{widget type="bestsellerproducts/list" limit_count="3" thumbnail_width="195" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_bestseller_products/bestseller_list.phtml"}}</div>
+<hr />
+<h3>Demo Grid View</h3>
+<div>{{widget type="bestsellerproducts/list" limit_count="3" item_width="195" thumbnail_width="195" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_bestseller_products/bestseller_grid.phtml"}}</div>
+<hr />
+<h2>Demo EM New Products Widget</h2>
+<h3>Demo List View</h3>
+<div>{{widget type="newproducts/list" limit_count="3" order_by="name asc" thumbnail_width="195" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_new_products/new_list.phtml"}}</div>
+<hr />
+<h3>Demo Grid View</h3>
+<div>{{widget type="newproducts/list" limit_count="3" order_by="name asc" item_width="195" thumbnail_width="195" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_new_products/new_grid.phtml"}}</div>
+<hr />
+<h2>Demo EM Sale Products Widget</h2>
+<h3>Demo List View</h3>
+<div>{{widget type="saleproducts/list" order_by="name asc" limit_count="3" thumbnail_width="195" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_sale_products/sale_list.phtml"}}</div>
+<hr />
+<h3>Demo Grid View</h3>
+<div>{{widget type="saleproducts/list" order_by="name asc" limit_count="3" item_width="195" thumbnail_width="195" thumbnail_height="200" show_product_name="true" show_thumbnail="true" show_description="true" show_price="true" show_reviews="true" show_addtocart="true" show_addto="true" show_label="true" choose_template="em_sale_products/sale_grid.phtml"}}</div>]]></content>
+      <is_active><![CDATA[1]]></is_active>
+      <root_template><![CDATA[one_column]]></root_template>
+      <meta_keywords><![CDATA[]]></meta_keywords>
+      <meta_description><![CDATA[]]></meta_description>
+      <content_heading><![CDATA[]]></content_heading>
+      <sort_order><![CDATA[0]]></sort_order>
+      <layout_update_xml><![CDATA[]]></layout_update_xml>
+      <custom_theme><![CDATA[]]></custom_theme>
+      <custom_root_template><![CDATA[]]></custom_root_template>
+      <custom_layout_update_xml><![CDATA[]]></custom_layout_update_xml>
+      <custom_theme_from><![CDATA[]]></custom_theme_from>
+      <custom_theme_to><![CDATA[]]></custom_theme_to>
+    </page>
+  </cmspage>
+  <megamenu>
+    <menu id="1">
+      <name><![CDATA[Gala Vineyard Main Menu]]></name>
+      <type><![CDATA[0]]></type>
+      <status><![CDATA[1]]></status>
+      <content><![CDATA[a:66:{i:0;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"Champagne";s:8:"sublabel";s:0:"";s:3:"url";s:37:"{{store direct_url=''}}furniture.html";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:1;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:18:"grid_8 alpha omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:2;a:5:{s:4:"type";s:4:"text";s:4:"text";s:36:"PHAgY2xhc3M9Img0Ij5DaGFtcGFnbmU8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:3;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:18:"grid_8 alpha omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:4;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:5;a:5:{s:4:"type";s:4:"text";s:4:"text";s:300:"PGg1PnZpdmEgbGEgdml0YTwvaDU+CjxkaXY+e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8xMiJ9fTwvZGl2Pgo8aDUgY2xhc3M9ImJyLXRvcCI+WmVsIGRpYXM8L2g1Pgo8ZGl2Pnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMTUifX08L2Rpdj4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:6;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:7;a:5:{s:4:"type";s:4:"text";s:4:"text";s:308:"PGg1PmxlbyBlbCBkaXZvPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEwIn19PC9kaXY+CjxoNSBjbGFzcz0iYnItdG9wIj5raWEgdml0YSB1buKAmTwvaDU+CjxkaXY+e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8xNSJ9fTwvZGl2Pg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:8;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"Sparkling";s:8:"sublabel";s:0:"";s:3:"url";s:39:"{{store direct_url=''}}electronics.html";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:9;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:19:"grid_24 alpha omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:10;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:19:"grid_24 alpha omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:11;a:5:{s:4:"type";s:4:"text";s:4:"text";s:148:"PHAgY2xhc3M9Img0Ij5TcGFya2xpbmc8L3A+CjxwIGNsYXNzPSJjb2wtdGl0bGUiPi8vIFRoaXMgaXMgYW4gZXhhbXBsZSBvZiBhIGxhcmdlIGNvbnRhaW5lciB3aXRoIDYgY29sbHVtbnM8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:12;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_24";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:13;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_4 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:14;a:5:{s:4:"type";s:4:"text";s:4:"text";s:144:"PGg1PnZpdmEgbGEgdml0YTwvaDU+CjxkaXY+e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8xNSJ9fTwvZGl2Pg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:15;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:16;a:5:{s:4:"type";s:4:"text";s:4:"text";s:140:"PGg1PmxlbyBlbCBkaXZvPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:17;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:18;a:5:{s:4:"type";s:4:"text";s:4:"text";s:136:"PGg1PnplbCBkaWFzPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:19;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:20;a:5:{s:4:"type";s:4:"text";s:4:"text";s:144:"PGg1PmtpYSB2aXRhIHVu4oCZPC9oNT4KPGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzE1In19PC9kaXY+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:21;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:22;a:5:{s:4:"type";s:4:"text";s:4:"text";s:144:"PGg1PnB1cmEgZGlhbWFuZDwvaDU+CjxkaXY+e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8xNSJ9fTwvZGl2Pg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:23;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_4 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:24;a:5:{s:4:"type";s:4:"text";s:4:"text";s:136:"PGg1PmRhIHZlc3Q8L2g1Pgo8ZGl2Pnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMTUifX08L2Rpdj4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:25;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_24";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:26;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:27;a:5:{s:4:"type";s:4:"text";s:4:"text";s:212:"PHAgY2xhc3M9ImNvbC10aXRsZSI+Ly8gSGVyZSBpcyBzb21lIGNvbnRlbnRzIHdpdGggc2lkZSBpbWFnZTwvcD4KPHA+PGEgaHJlZj0iIyI+PGltZyBjbGFzcz0iZmx1aWQiIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvbWVudTQuanBnIn19IiBhbHQ9IiIgLz48L2E+PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:28;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_10";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:29;a:5:{s:4:"type";s:4:"text";s:4:"text";s:436:"PHAgY2xhc3M9InRleHQtZmlyc3QiPlNlZCB1dCBwZXJzcGljaWF0aXMgdW5kZSBvbW5pcyBpc3RlIG5hdHVzIGVycm9yIHNpdCB2b2x1cHRhdGVtIHVzYW5kb2xvcmVtcXVlLkxhdWRhbnRpdW0sIHRvdGFtIHJlbSBhcGVyaWFtLCBlYXF1ZSBpcHNhIHF1YWUgYWIgaWxsbyBpbnZlbnRvcmUgdmVyaXRhdGlzIGV0IHF1YXNpIGFyY2hpdGVjdG8gYmVhdGFlIHZpdGFlIGRpY3RhIHN1bnQgZXhwbGljYWJvLiA8L3A+CjxwPk5lbW8gZW5pbSBpcHNhbSB2b2x1cHRhdGVtIHF1aWEgdm9sdXB0YXMgc2l0IGFzcGVybmF0dXIgYXV0IG9kaXQgYXV0IGZ1Z2l0LCBzZWQgcXVpYS48L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:30;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_8 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:31;a:5:{s:4:"type";s:4:"text";s:4:"text";s:552:"PHAgY2xhc3M9ImNvbC10aXRsZSI+Ly9UaGlzIGlzIGEgYmxhbmsgYm94LCB5b3UgY2FuIHVzZSBpdCB0byBoaWdobGlnaHQgc29tZSBjb250ZW50PC9wPgo8cD5TZWQgdXQgcGVyc3BpY2lhdGlzIHVuZGUgb21uaXMgaXN0ZSBuYXR1cyBlcnJvciBzaXQgdm9sdXB0YXRlbSBhY2N1c2FudGl1bSBkb2xvcmVtcXVlLjwvcD4KPHA+TGF1ZGFudGl1bSwgdG90YW0gcmVtIGFwZXJpYW0sIGVhcXVlIGlwc2EgcXVhZSBhYiBpbGxvIGludmVudG9yZSB2ZXJpdGF0aXMgZXQgcXVhc2kgYXJjaGl0ZWN0byBiZWF0YWUgdml0YWUgZGljdGEgc3VudCBleHBsaWNhYm8uPC9wPgo8cD5OZW1vIGVuaW0gaXBzYW0gdm9sdXB0YXRlbSBxdWlhIHZvbHVwdGFzIHNpdCBhc3Blcm5hdHVyIGF1dCBvZGl0IGF1dCBmdWdpdCwgc2VkIHF1aWEuPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:32;a:8:{s:4:"type";s:4:"link";s:5:"label";s:7:"Organic";s:8:"sublabel";s:0:"";s:3:"url";s:35:"{{store direct_url=''}}apparel.html";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:33;a:5:{s:4:"type";s:4:"text";s:4:"text";s:112:"PGRpdj57e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMifX08L2Rpdj4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:34;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Kosher";s:8:"sublabel";s:0:"";s:3:"url";s:37:"{{store direct_url=''}}furniture.html";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:35;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_24";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:36;a:5:{s:4:"type";s:4:"text";s:4:"text";s:32:"PHAgY2xhc3M9Img0Ij5Lb3NoZXI8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:37;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_24";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:38;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_8 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:39;a:5:{s:4:"type";s:4:"text";s:4:"text";s:428:"PHA+PGEgaHJlZj0iIyI+PGltZyBjbGFzcz0iZmx1aWQiIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvbWVudTMuanBnIn19IiBhbHQ9IiIgLz48L2E+PC9wPgo8cD5MYXVkYW50aXVtLCB0b3RhbSByZW0gYXBlcmlhbSwgZWFxdWUgaXBzYSBxdWFlIGFiIGlsbG8gaW52ZW50b3JlIHZlcml0YXRpcyBldCBxdWFzaSBhcmNoaXRlY3RvIGJlYXRhZSB2aXRhZSBkaWN0YSBzdW50IGV4cGxpY2Fiby48L3A+CjxwPk5lbW8gZW5pbSBpcHNhbSB2b2x1cHRhdGVtIHF1aWEgdm9sdXB0YXMgc2l0IGFzcGVybmF0dXIgYXV0IG9kaXQgYXV0IGZ1Z2l0LCBzZWQgcXVpYS48L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:40;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:41;a:5:{s:4:"type";s:4:"text";s:4:"text";s:724:"PGg1PnplbCBkaWFzPC9oNT4KPHVsPgo8bGk+PGEgaHJlZj0iIyI+TmVtbyB2b2x1cHRhdGVtPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT4gCjx1bCBjbGFzcz0iYWRkIj4KPGxpPjxhIGhyZWY9IiMiPkVuaW0gdm9sdXB0YXRlbTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+UXVpYSB2b2x1cHRhczwvYT48L2xpPgo8L3VsPjwvbGk+CjxsaT48YSBocmVmPSIjIj5sYWJvcmUgZXQgZG9sb3JlPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5sYWJvcmlzIG5pc2kgdXQ8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkR1aXMgYXV0ZSBpcnVyZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+TmVtbyB2b2x1cHRhdGVtPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPC91bD4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:42;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:43;a:5:{s:4:"type";s:4:"text";s:4:"text";s:592:"PGg1PmtpYSB2aXRhIHVu4oCZPC9oNT4KPHVsPgo8bGk+PGEgaHJlZj0iIyI+TmVtbyB2b2x1cHRhdGVtPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPk5lbW8gdm9sdXB0YXRlbTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+ZWl1c21vZCB0ZW1wb3I8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmxhYm9yZSBldCBkb2xvcmU8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmxhYm9yaXMgbmlzaSB1dDwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+RHVpcyBhdXRlIGlydXJlPC9hPjwvbGk+CjwvdWw+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:44;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_8 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:45;a:5:{s:4:"type";s:4:"text";s:4:"text";s:356:"PGEgaHJlZj0iaHR0cDovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9GRXFYV3dQRnVzSSIgb25jbGljaz0idGFyZ2V0PSdfYmxhbmsnIj4KPGltZyBjbGFzcz0iZmx1aWQiIHNyYz0ie3tza2luIHVybD0naW1hZ2VzL21lZGlhL2RlbW8vbWVudV92aWRlby5wbmcnfX0iIGFsdD0iIiAvPgo8L2E+CjxwPk5lbW8gZW5pbSBpcHNhbSB2b2x1cHRhdGVtIHF1aWEgdm9sdXB0YXMgc2l0IGFzcGVybmF0dXIgYXV0IGRvbG9yZW0Kb2RpdCBhdXQgZnVnaXQsIHNlZCBxdWlhLjwvcD4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:46;a:8:{s:4:"type";s:4:"link";s:5:"label";s:4:"Rose";s:8:"sublabel";s:0:"";s:3:"url";s:39:"{{store direct_url=''}}electronics.html";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:47;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_24";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:48;a:5:{s:4:"type";s:4:"text";s:4:"text";s:32:"PHAgY2xhc3M9Img0Ij5Sb3NlPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:49;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_24";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:50;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_8 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:51;a:5:{s:4:"type";s:4:"text";s:4:"text";s:428:"PHA+PGEgaHJlZj0iIyI+PGltZyBjbGFzcz0iZmx1aWQiIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvbWVudTMuanBnIn19IiBhbHQ9IiIgLz48L2E+PC9wPgo8cD5MYXVkYW50aXVtLCB0b3RhbSByZW0gYXBlcmlhbSwgZWFxdWUgaXBzYSBxdWFlIGFiIGlsbG8gaW52ZW50b3JlIHZlcml0YXRpcyBldCBxdWFzaSBhcmNoaXRlY3RvIGJlYXRhZSB2aXRhZSBkaWN0YSBzdW50IGV4cGxpY2Fiby48L3A+CjxwPk5lbW8gZW5pbSBpcHNhbSB2b2x1cHRhdGVtIHF1aWEgdm9sdXB0YXMgc2l0IGFzcGVybmF0dXIgYXV0IG9kaXQgYXV0IGZ1Z2l0LCBzZWQgcXVpYS48L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:52;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:53;a:5:{s:4:"type";s:4:"text";s:4:"text";s:608:"PGg1PnplbCBkaWFzPC9oNT4KPHVsPgo8bGk+PGEgaHJlZj0iIyI+Y29uc2VjdGV0dXIgYWRpcGlzaWNpbmc8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmVpdXNtb2QgdGVtcG9yPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5sYWJvcmUgZXQgZG9sb3JlPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5sYWJvcmlzIG5pc2kgdXQ8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkR1aXMgYXV0ZSBpcnVyZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+Y29uc2VjdGV0dXIgYWRpcGlzaWNpbmc8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmVpdXNtb2QgdGVtcG9yPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5sYWJvcmUgZXQgZG9sb3JlPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5sYWJvcmlzIG5pc2kgdXQ8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkR1aXMgYXV0ZSBpcnVyZTwvYT48L2xpPgo8L3VsPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:54;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:55;a:5:{s:4:"type";s:4:"text";s:4:"text";s:592:"PGg1PmtpYSB2aXRhIHVu4oCZPC9oNT4KPHVsPgo8bGk+PGEgaHJlZj0iIyI+TmVtbyB2b2x1cHRhdGVtPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPk5lbW8gdm9sdXB0YXRlbTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+ZWl1c21vZCB0ZW1wb3I8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmxhYm9yZSBldCBkb2xvcmU8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmxhYm9yaXMgbmlzaSB1dDwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+RHVpcyBhdXRlIGlydXJlPC9hPjwvbGk+CjwvdWw+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:56;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:57;a:5:{s:4:"type";s:4:"text";s:4:"text";s:596:"PGg1PmhlYXZhbiBzaGV0dGFyZXI8L2g1Pgo8dWw+CjxsaT48YSBocmVmPSIjIj5OZW1vIHZvbHVwdGF0ZW08L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPmVpdXNtb2QgdGVtcG9yPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5sYWJvcmUgZXQgZG9sb3JlPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5sYWJvcmlzIG5pc2kgdXQ8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkR1aXMgYXV0ZSBpcnVyZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+TmVtbyB2b2x1cHRhdGVtPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5laXVzbW9kIHRlbXBvcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JlIGV0IGRvbG9yZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+bGFib3JpcyBuaXNpIHV0PC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5EdWlzIGF1dGUgaXJ1cmU8L2E+PC9saT4KPC91bD4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:58;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_4 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:59;a:5:{s:4:"type";s:4:"text";s:4:"text";s:504:"e3t3aWRnZXQgdHlwZT0ibmV3cHJvZHVjdHMvbGlzdCIgbmV3X2NhdGVnb3J5PSIzIiBsaW1pdF9jb3VudD0iMSIgb3JkZXJfYnk9Im5hbWUgYXNjIiBmcm9udGVuZF90aXRsZT0iTmV3IEFycml2YWwiIHRodW1ibmFpbF93aWR0aD0iMTgwIiB0aHVtYm5haWxfaGVpZ2h0PSIxODAiIHNob3dfcHJvZHVjdF9uYW1lPSJ0cnVlIiBzaG93X3RodW1ibmFpbD0idHJ1ZSIgc2hvd19kZXNjcmlwdGlvbj0idHJ1ZSIgc2hvd19wcmljZT0idHJ1ZSIgc2hvd19yZXZpZXdzPSJ0cnVlIiBzaG93X2FkZHRvY2FydD0idHJ1ZSIgc2hvd19hZGR0bz0iZmFsc2UiIHNob3dfbGFiZWw9InRydWUiIGNob29zZV90ZW1wbGF0ZT0iZW1fbmV3X3Byb2R1Y3RzL25ld19ncmlkLnBodG1sIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:60;a:8:{s:4:"type";s:4:"link";s:5:"label";s:5:"Blush";s:8:"sublabel";s:0:"";s:3:"url";s:35:"{{store direct_url=''}}apparel.html";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:61;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_24";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:62;a:5:{s:4:"type";s:4:"text";s:4:"text";s:732:"PHAgY2xhc3M9Img0Ij5CbHVzaDwvcD4KPHAgY2xhc3M9Imxpc3QtaW1nIj48YSBocmVmPSIjIj48aW1nIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvaV9sb2dvLnBuZyJ9fSIgYWx0PSIiIC8+PC9hPjxhIGhyZWY9IiMiPjxpbWcgc3JjPSJ7e21lZGlhIHVybD0id3lzaXd5Zy9pX2xvZ28ucG5nIn19IiBhbHQ9IiIgLz48L2E+PGEgaHJlZj0iIyI+PGltZyBzcmM9Int7bWVkaWEgdXJsPSJ3eXNpd3lnL2lfbG9nby5wbmcifX0iIGFsdD0iIiAvPjwvYT48YSBocmVmPSIjIj48aW1nIHNyYz0ie3ttZWRpYSB1cmw9Ind5c2l3eWcvaV9sb2dvLnBuZyJ9fSIgYWx0PSIiIC8+PC9hPjxhIGhyZWY9IiMiPjxpbWcgc3JjPSJ7e21lZGlhIHVybD0id3lzaXd5Zy9pX2xvZ28ucG5nIn19IiBhbHQ9IiIgLz48L2E+PGEgaHJlZj0iIyI+PGltZyBzcmM9Int7bWVkaWEgdXJsPSJ3eXNpd3lnL2lfbG9nby5wbmcifX0iIGFsdD0iIiAvPjwvYT48L2E+PGEgaHJlZj0iIyI+PGltZyBzcmM9Int7bWVkaWEgdXJsPSJ3eXNpd3lnL2lfbG9nby5wbmcifX0iIGFsdD0iIiAvPjwvYT48L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:63;a:8:{s:4:"type";s:4:"link";s:5:"label";s:5:"noir ";s:8:"sublabel";s:0:"";s:3:"url";s:35:"{{store direct_url=''}}apparel.html";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:64;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_4";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:65;a:5:{s:4:"type";s:4:"text";s:4:"text";s:136:"PGg1Pk9yZ2FuaWM8L2g1Pgo8ZGl2Pnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMTUifX08L2Rpdj4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}}]]></content>
+      <css_class><![CDATA[]]></css_class>
+    </menu>
+    <menu id="2">
+      <name><![CDATA[Gala Vineyard Sample Horizontal Menu]]></name>
+      <type><![CDATA[0]]></type>
+      <status><![CDATA[1]]></status>
+      <content><![CDATA[a:49:{i:0;a:8:{s:4:"type";s:4:"link";s:5:"label";s:15:"First Link Item";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:1;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"1 Column";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:4:"col1";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:2;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:3;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:4;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:5;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:6;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:7;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 3";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:8;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"2 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:9;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_10";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:10;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_4 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:11;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:12;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:13;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQo=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:14;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:15;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:16;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"3 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:9:"nav-right";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:17;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_18";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:18;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:19;a:5:{s:4:"type";s:4:"text";s:4:"text";s:304:"PGgzPkZpcnN0IENvbHVtbiBjb250YWlucyBvbmx5IGl0ZW0gIlRleHQiPC9oMz4KVGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:20;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_6";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:21;a:5:{s:4:"type";s:4:"text";s:4:"text";s:340:"PGgzPlNlY29uZCBDb2x1bW48L2gzPgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPgo8cD5CZWxvdyBpcyAyIDxzdHJvbmc+TGluazwvc3Ryb25nPiBpdGVtczo8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:22;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:23;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:24;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:25;a:5:{s:4:"type";s:4:"text";s:4:"text";s:360:"PGgzPjNyZCBDb2x1bW48L2gzPgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQo8cD5CZWxvdyBpcyBzdGF0aWMgbGlua3M6PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:26;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:27;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:28;a:8:{s:4:"type";s:4:"link";s:5:"label";s:13:"Mixed Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:29;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_18";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:30;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:31;a:5:{s:4:"type";s:4:"text";s:4:"text";s:376:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzY8L3N0cm9uZz48L3A+Cgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPgo8cD5CZWxvdyBpcyAyIDxzdHJvbmc+TGluazwvc3Ryb25nPiBpdGVtczo8L3A+Cg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:32;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:33;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:34;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_6";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:35;a:5:{s:4:"type";s:4:"text";s:4:"text";s:352:"PHA+PHN0cm9uZz5Db2x1bW4gY2xhc3M9Z3JpZF82PC9zdHJvbmc+PC9wPgoKPHA+QmVsb3cgaXMgPGNvZGU+eyB7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9IH08L2NvZGU+PC9wPgp7e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:36;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:37;a:5:{s:4:"type";s:4:"text";s:4:"text";s:312:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzY8L3N0cm9uZz48L3A+Cgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:38;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_18";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:39;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_9 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:40;a:5:{s:4:"type";s:4:"text";s:4:"text";s:312:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzk8L3N0cm9uZz48L3A+Cgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:41;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:22:"grid_9 nav-right omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:42;a:5:{s:4:"type";s:4:"text";s:4:"text";s:352:"PHA+PHN0cm9uZz5Db2x1bW4gY2xhc3M9Z3JpZF84PC9zdHJvbmc+PC9wPgoKPHA+QmVsb3cgaXMgPGNvZGU+eyB7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9IH08L2NvZGU+PC9wPgp7e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:43;a:8:{s:4:"type";s:4:"link";s:5:"label";s:10:"Categories";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:44;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:15:"omega nav-right";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:45;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:46;a:5:{s:4:"type";s:4:"text";s:4:"text";s:608:"PHA+VXNlIDxzdHJvbmc+Um93cyBMYXlvdXQ8L3N0cm9uZz4gYXMgcGFyZW50IDxzdHJvbmc+VGV4dDwvc3Ryb25nPiBmb3IgcHVycG9zZSBvZiBzZXR0aW5nIDxlbT5zcGFjaW5nPTEwPC9lbT48L3A+Cgo8cD5DYXRlZ29yaWVzJyBDb250YWluZXIgQ1NTOiA8ZW0+d2lkdGg6MzAwcHg8L2VtPjwvcD4KPHA+PGNvZGU+eyB7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9IH08L2NvZGU+PC9wPgoKPHA+PHN0cm9uZz5UZXh0PC9zdHJvbmc+IGl0ZW0gY29udGFpbnMgdGhlIGJsb2NrIDxlbT5tZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbjwvZW0+IGFscmVhZHkgaGFzIG1hcmdpbiBzbyB3ZSBwbGFjZSBpdCBvdXRzaWRlIHRoZSA8c3Ryb25nPlJvd3MgTGF5b3V0PC9zdHJvbmc+PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:47;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:48;a:5:{s:4:"type";s:4:"text";s:4:"text";s:128:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249Imhvcml6b250YWwifX0=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}}]]></content>
+      <css_class><![CDATA[sample-menu-fixed]]></css_class>
+    </menu>
+    <menu id="3">
+      <name><![CDATA[Gala Vineyard Sample Vertical Menu Left]]></name>
+      <type><![CDATA[1]]></type>
+      <status><![CDATA[1]]></status>
+      <content><![CDATA[a:48:{i:0;a:8:{s:4:"type";s:4:"link";s:5:"label";s:15:"First Link Item";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:1;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:2;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"1 Column";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:4:"col1";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:3;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:4;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:5;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:6;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:7;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 3";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:8;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"2 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:9;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_10";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:10;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_4 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:11;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:12;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:13;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQo=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:14;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:15;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:16;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"3 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:9:"nav-right";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:17;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_18";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:18;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:19;a:5:{s:4:"type";s:4:"text";s:4:"text";s:304:"PGgzPkZpcnN0IENvbHVtbiBjb250YWlucyBvbmx5IGl0ZW0gIlRleHQiPC9oMz4KVGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:20;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_6";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:21;a:5:{s:4:"type";s:4:"text";s:4:"text";s:340:"PGgzPlNlY29uZCBDb2x1bW48L2gzPgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPgo8cD5CZWxvdyBpcyAyIDxzdHJvbmc+TGluazwvc3Ryb25nPiBpdGVtczo8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:22;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:23;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:24;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:25;a:5:{s:4:"type";s:4:"text";s:4:"text";s:360:"PGgzPjNyZCBDb2x1bW48L2gzPgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQo8cD5CZWxvdyBpcyBzdGF0aWMgbGlua3M6PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:26;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:27;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:28;a:8:{s:4:"type";s:4:"link";s:5:"label";s:13:"Mixed Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:29;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_18";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:30;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:31;a:5:{s:4:"type";s:4:"text";s:4:"text";s:376:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzY8L3N0cm9uZz48L3A+Cgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPgo8cD5CZWxvdyBpcyAyIDxzdHJvbmc+TGluazwvc3Ryb25nPiBpdGVtczo8L3A+Cg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:32;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:33;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:34;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_6";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:35;a:5:{s:4:"type";s:4:"text";s:4:"text";s:356:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzY8L3N0cm9uZz48L3A+Cgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:36;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:37;a:5:{s:4:"type";s:4:"text";s:4:"text";s:312:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzY8L3N0cm9uZz48L3A+Cgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:38;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:17:"grid_18 nav-right";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:39;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_9 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:40;a:5:{s:4:"type";s:4:"text";s:4:"text";s:312:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzk8L3N0cm9uZz48L3A+Cgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:41;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_9 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:42;a:5:{s:4:"type";s:4:"text";s:4:"text";s:356:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzk8L3N0cm9uZz48L3A+Cgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:43;a:8:{s:4:"type";s:4:"link";s:5:"label";s:10:"Categories";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:44;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:45;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:46;a:5:{s:4:"type";s:4:"text";s:4:"text";s:608:"PHA+VXNlIDxzdHJvbmc+Um93cyBMYXlvdXQ8L3N0cm9uZz4gYXMgcGFyZW50IDxzdHJvbmc+VGV4dDwvc3Ryb25nPiBmb3IgcHVycG9zZSBvZiBzZXR0aW5nIDxlbT5zcGFjaW5nPTEwPC9lbT48L3A+Cgo8cD5DYXRlZ29yaWVzJyBDb250YWluZXIgQ1NTOiA8ZW0+d2lkdGg6MzAwcHg8L2VtPjwvcD4KCjxwPjxjb2RlPnsge3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifSB9PC9jb2RlPjwvcD4KCjxwPjxzdHJvbmc+VGV4dDwvc3Ryb25nPiBpdGVtIGNvbnRhaW5zIHRoZSBibG9jayA8ZW0+bWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb248L2VtPiBhbHJlYWR5IGhhcyBtYXJnaW4gc28gd2UgcGxhY2UgaXQgb3V0c2lkZSB0aGUgPHN0cm9uZz5Sb3dzIExheW91dDwvc3Ryb25nPjwvcD4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:47;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}}]]></content>
+      <css_class><![CDATA[]]></css_class>
+    </menu>
+    <menu id="4">
+      <name><![CDATA[Gala Vineyard Sample Vertical Menu Right]]></name>
+      <type><![CDATA[1]]></type>
+      <status><![CDATA[1]]></status>
+      <content><![CDATA[a:48:{i:0;a:8:{s:4:"type";s:4:"link";s:5:"label";s:15:"First Link Item";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:1;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:2;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"1 Column";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:4:"col1";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:3;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:4;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:5;a:8:{s:4:"type";s:4:"link";s:5:"label";s:8:"Link 1.2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:6;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:7;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 3";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:8;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"2 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:9;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_10";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:10;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_4 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:11;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:12;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:13;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQo=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:14;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:15;a:5:{s:4:"type";s:4:"text";s:4:"text";s:240:"VGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:16;a:8:{s:4:"type";s:4:"link";s:5:"label";s:9:"3 Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:9:"nav-right";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:17;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_18";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:18;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:19;a:5:{s:4:"type";s:4:"text";s:4:"text";s:304:"PGgzPkZpcnN0IENvbHVtbiBjb250YWlucyBvbmx5IGl0ZW0gIlRleHQiPC9oMz4KVGhpcyBpcyBzYW1wbGUgY29udGVudCBvZiAiVGV4dCIgbWVudSBpdGVtLiBZb3UgY2FuIGVudGVyIHlvdXIgb3duIHRleHQgaGVyZS4gSXQgc3VwcG9ydHMgPHN0cm9uZz5XWVNJV1lHIEVkaXRvcjwvc3Ryb25nPiBhcyB3ZWxsIGFzIDxlbT5tYWdlbnRvIGRpcmVjdGl2ZTwvZW0+IChibG9jaywgd2lkZ2V0Li4uKQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:20;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_6";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:21;a:5:{s:4:"type";s:4:"text";s:4:"text";s:340:"PGgzPlNlY29uZCBDb2x1bW48L2gzPgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPgo8cD5CZWxvdyBpcyAyIDxzdHJvbmc+TGluazwvc3Ryb25nPiBpdGVtczo8L3A+";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:22;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:23;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:24;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:25;a:5:{s:4:"type";s:4:"text";s:4:"text";s:360:"PGgzPjNyZCBDb2x1bW48L2gzPgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQo8cD5CZWxvdyBpcyBzdGF0aWMgbGlua3M6PC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:26;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:27;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:28;a:8:{s:4:"type";s:4:"link";s:5:"label";s:13:"Mixed Columns";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:29;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_18";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:30;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:31;a:5:{s:4:"type";s:4:"text";s:4:"text";s:376:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzY8L3N0cm9uZz48L3A+Cgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPgo8cD5CZWxvdyBpcyAyIDxzdHJvbmc+TGluazwvc3Ryb25nPiBpdGVtczo8L3A+Cg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:32;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 1";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:33;a:8:{s:4:"type";s:4:"link";s:5:"label";s:6:"Link 2";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:34;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:6:"grid_6";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:35;a:5:{s:4:"type";s:4:"text";s:4:"text";s:356:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzY8L3N0cm9uZz48L3A+Cgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:36;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_6 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:37;a:5:{s:4:"type";s:4:"text";s:4:"text";s:312:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzY8L3N0cm9uZz48L3A+Cgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:38;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:7:"grid_18";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:39;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_9 alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:40;a:5:{s:4:"type";s:4:"text";s:4:"text";s:312:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzk8L3N0cm9uZz48L3A+Cgo8cD5UaGlzIGlzIHNhbXBsZSBjb250ZW50IG9mICJUZXh0IiBtZW51IGl0ZW0uIFlvdSBjYW4gZW50ZXIgeW91ciBvd24gdGV4dCBoZXJlLiBJdCBzdXBwb3J0cyA8c3Ryb25nPldZU0lXWUcgRWRpdG9yPC9zdHJvbmc+IGFzIHdlbGwgYXMgPGVtPm1hZ2VudG8gZGlyZWN0aXZlPC9lbT4gKGJsb2NrLCB3aWRnZXQuLi4pPC9wPg==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:41;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:12:"grid_9 omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:42;a:5:{s:4:"type";s:4:"text";s:4:"text";s:356:"PHA+PHN0cm9uZz5Db2x1bW4gd2lkdGggPSBncmlkXzk8L3N0cm9uZz48L3A+Cgo8cD5CZWxvdyBpcyA8Y29kZT57IHt3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn0gfTwvY29kZT48L3A+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMyIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQ==";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:43;a:8:{s:4:"type";s:4:"link";s:5:"label";s:10:"Categories";s:8:"sublabel";s:0:"";s:3:"url";s:1:"#";s:6:"target";s:0:"";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"0";}i:44;a:7:{s:4:"type";s:4:"hbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"omega";s:13:"container_css";s:0:"";s:5:"depth";s:1:"1";}i:45;a:7:{s:4:"type";s:4:"vbox";s:5:"width";s:0:"";s:6:"height";s:0:"";s:7:"spacing";s:0:"";s:9:"css_class";s:5:"alpha";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}i:46;a:5:{s:4:"type";s:4:"text";s:4:"text";s:608:"PHA+VXNlIDxzdHJvbmc+Um93cyBMYXlvdXQ8L3N0cm9uZz4gYXMgcGFyZW50IDxzdHJvbmc+VGV4dDwvc3Ryb25nPiBmb3IgcHVycG9zZSBvZiBzZXR0aW5nIDxlbT5zcGFjaW5nPTEwPC9lbT48L3A+Cgo8cD5DYXRlZ29yaWVzJyBDb250YWluZXIgQ1NTOiA8ZW0+d2lkdGg6MzAwcHg8L2VtPjwvcD4KCjxwPjxjb2RlPnsge3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzMiIGRpcmVjdGlvbj0idmVydGljYWwifSB9PC9jb2RlPjwvcD4KCjxwPjxzdHJvbmc+VGV4dDwvc3Ryb25nPiBpdGVtIGNvbnRhaW5zIHRoZSBibG9jayA8ZW0+bWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb248L2VtPiBhbHJlYWR5IGhhcyBtYXJnaW4gc28gd2UgcGxhY2UgaXQgb3V0c2lkZSB0aGUgPHN0cm9uZz5Sb3dzIExheW91dDwvc3Ryb25nPjwvcD4=";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"3";}i:47;a:5:{s:4:"type";s:4:"text";s:4:"text";s:124:"e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8zIiBkaXJlY3Rpb249InZlcnRpY2FsIn19";s:9:"css_class";s:0:"";s:13:"container_css";s:0:"";s:5:"depth";s:1:"2";}}]]></content>
+      <css_class><![CDATA[nav-right]]></css_class>
+    </menu>
+  </megamenu>
+  <slideshows>
+    <slideshow id="1">
+      <name><![CDATA[Gala Vineyard Main Slideshow]]></name>
+      <images><![CDATA[YToyOntpOjA7YTo2OntzOjM6InVybCI7czoyMDoiMTM3ODY5MDk5M18wX2JrZy5wbmciO3M6NToidHJhbnMiO3M6NDoiZGVtbyI7czoxMDoic2xvdGFtb3VudCI7czoxOiI3IjtzOjQ6ImxpbmsiO3M6MTQ6ImZ1cm5pdHVyZS5odG1sIjtzOjg6InBvc2l0aW9uIjtzOjE6IjAiO3M6NDoiaW5mbyI7YTozOntpOjA7YTo5OntzOjQ6InRleHQiO3M6NzE6IjxwPjxpbWcgc3JjPSJ7e21lZGlhIHVybD0nZW1fc2xpZGVzaG93L3NsaWRlc2hvd18xLmpwZ319IiBhbHQ9IiIgLz48L3A+IjtzOjU6ImNsYXNzIjtzOjA6IiI7czo1OiJzdGFydCI7czozOiI1MDAiO3M6MzoiZW5kIjtzOjA6IiI7czo2OiJkYXRhX3giO3M6MToiMCI7czo2OiJkYXRhX3kiO3M6MjoiNjAiO3M6OToiYW5pbWF0aW9uIjtzOjM6InNmdCI7czo2OiJlYXNpbmciO3M6MTM6ImVhc2VJbk91dENpcmMiO3M6NToic3BlZWQiO3M6NDoiMTAwMCI7fWk6MTthOjk6e3M6NDoidGV4dCI7czo2NjoiPHA+PGltZyBzcmM9Int7bWVkaWEgdXJsPSdlbV9zbGlkZXNob3cvd2luZV8xLnBuZ319IiBhbHQ9IiIgLz48L3A+IjtzOjU6ImNsYXNzIjtzOjA6IiI7czo1OiJzdGFydCI7czo0OiIxMDAwIjtzOjM6ImVuZCI7czowOiIiO3M6NjoiZGF0YV94IjtzOjI6IjMwIjtzOjY6ImRhdGFfeSI7czoxOiIwIjtzOjk6ImFuaW1hdGlvbiI7czozOiJzZmwiO3M6NjoiZWFzaW5nIjtzOjE1OiJlYXNlSW5PdXRCb3VuY2UiO3M6NToic3BlZWQiO3M6NDoiMTAwMCI7fWk6MjthOjk6e3M6NDoidGV4dCI7czo2ODoiPHA+PGltZyBzcmM9Int7bWVkaWEgdXJsPSdlbV9zbGlkZXNob3cvYmtnX3RleHQucG5nfX0iIGFsdD0iIiAvPjwvcD4iO3M6NToiY2xhc3MiO3M6MDoiIjtzOjU6InN0YXJ0IjtzOjQ6IjIwMDAiO3M6MzoiZW5kIjtzOjA6IiI7czo2OiJkYXRhX3giO3M6MzoiNDcwIjtzOjY6ImRhdGFfeSI7czozOiIzNzAiO3M6OToiYW5pbWF0aW9uIjtzOjM6ImxmYiI7czo2OiJlYXNpbmciO3M6MTM6ImVhc2VJbk91dFF1YWQiO3M6NToic3BlZWQiO3M6NDoiMTAwMCI7fX19aToxO2E6Njp7czozOiJ1cmwiO3M6MjA6IjEzNzg2OTEwODZfMF9ia2cucG5nIjtzOjU6InRyYW5zIjtzOjQ6ImRlbW8iO3M6MTA6InNsb3RhbW91bnQiO3M6MToiNyI7czo0OiJsaW5rIjtzOjA6IiI7czo4OiJwb3NpdGlvbiI7czoxOiIwIjtzOjQ6ImluZm8iO2E6Mzp7aTowO2E6OTp7czo0OiJ0ZXh0IjtzOjcxOiI8cD48aW1nIHNyYz0ie3ttZWRpYSB1cmw9J2VtX3NsaWRlc2hvdy9zbGlkZXNob3dfMi5qcGd9fSIgYWx0PSIiIC8+PC9wPiI7czo1OiJjbGFzcyI7czowOiIiO3M6NToic3RhcnQiO3M6MzoiNTAwIjtzOjM6ImVuZCI7czowOiIiO3M6NjoiZGF0YV94IjtzOjE6IjAiO3M6NjoiZGF0YV95IjtzOjI6IjYwIjtzOjk6ImFuaW1hdGlvbiI7czozOiJzZmwiO3M6NjoiZWFzaW5nIjtzOjE0OiJlYXNlSW5PdXRRdWFydCI7czo1OiJzcGVlZCI7czo0OiIxMDAwIjt9aToxO2E6OTp7czo0OiJ0ZXh0IjtzOjY2OiI8cD48aW1nIHNyYz0ie3ttZWRpYSB1cmw9J2VtX3NsaWRlc2hvdy93aW5lXzIucG5nfX0iIGFsdD0iIiAvPjwvcD4iO3M6NToiY2xhc3MiO3M6MDoiIjtzOjU6InN0YXJ0IjtzOjQ6IjEwMDAiO3M6MzoiZW5kIjtzOjA6IiI7czo2OiJkYXRhX3giO3M6MzoiMjM1IjtzOjY6ImRhdGFfeSI7czoyOiI3NyI7czo5OiJhbmltYXRpb24iO3M6MzoibGZiIjtzOjY6ImVhc2luZyI7czoxNjoiZWFzZUluT3V0RWxhc3RpYyI7czo1OiJzcGVlZCI7czo0OiIxMDAwIjt9aToyO2E6OTp7czo0OiJ0ZXh0IjtzOjY5OiI8cD48aW1nIHNyYz0ie3ttZWRpYSB1cmw9J2VtX3NsaWRlc2hvdy9ia2dfdGV4dDIucG5nfX0iIGFsdD0iIiAvPjwvcD4iO3M6NToiY2xhc3MiO3M6MDoiIjtzOjU6InN0YXJ0IjtzOjQ6IjIwMDAiO3M6MzoiZW5kIjtzOjA6IiI7czo2OiJkYXRhX3giO3M6MzoiMzEwIjtzOjY6ImRhdGFfeSI7czozOiIzODciO3M6OToiYW5pbWF0aW9uIjtzOjEyOiJyYW5kb21yb3RhdGUiO3M6NjoiZWFzaW5nIjtzOjE0OiJlYXNlSW5PdXRRdWludCI7czo1OiJzcGVlZCI7czo0OiIxMDAwIjt9fX19]]></images>
+      <slider_type><![CDATA[fullwidth]]></slider_type>
+      <slider_params><![CDATA[a:22:{s:10:"size_width";s:4:"1180";s:11:"size_height";s:3:"600";s:14:"screen_width_1";s:4:"1200";s:14:"slider_width_1";s:3:"940";s:14:"screen_width_2";s:3:"980";s:14:"slider_width_2";s:3:"700";s:14:"screen_width_3";s:3:"768";s:14:"slider_width_3";s:3:"548";s:14:"screen_width_4";s:3:"516";s:14:"slider_width_4";s:3:"420";s:14:"screen_width_5";s:3:"481";s:14:"slider_width_5";s:3:"460";s:14:"screen_width_6";s:3:"321";s:14:"slider_width_6";s:3:"300";s:14:"screen_width_7";s:0:"";s:14:"slider_width_7";s:0:"";s:14:"screen_width_8";s:0:"";s:14:"slider_width_8";s:0:"";s:14:"screen_width_9";s:0:"";s:14:"slider_width_9";s:0:"";s:15:"screen_width_10";s:0:"";s:15:"slider_width_10";s:0:"";}]]></slider_params>
+      <delay><![CDATA[5000]]></delay>
+      <touch><![CDATA[on]]></touch>
+      <stop_hover><![CDATA[on]]></stop_hover>
+      <shuffle_mode><![CDATA[on]]></shuffle_mode>
+      <stop_slider><![CDATA[off]]></stop_slider>
+      <stop_after_loop><![CDATA[0]]></stop_after_loop>
+      <stop_at_slide><![CDATA[1]]></stop_at_slide>
+      <position><![CDATA[a:5:{s:4:"type";s:6:"center";s:6:"mg_top";s:1:"0";s:9:"mg_bottom";s:1:"0";s:7:"mg_left";s:1:"0";s:8:"mg_right";s:1:"0";}]]></position>
+      <appearance><![CDATA[a:7:{s:11:"shadow_type";s:1:"1";s:9:"show_time";s:5:"false";s:13:"time_position";s:3:"top";s:8:"bg_color";s:7:"#000000";s:7:"padding";s:0:"";s:11:"show_bg_img";s:5:"false";s:6:"bg_img";s:0:"";}]]></appearance>
+      <navigation><![CDATA[a:7:{s:8:"nav_type";s:4:"none";s:10:"nav_arrows";s:16:"verticalcentered";s:9:"nav_style";s:9:"round-old";s:14:"nav_offset_hor";s:1:"0";s:15:"nav_offset_vert";s:2:"20";s:13:"nav_always_on";s:5:"false";s:11:"hide_thumbs";s:3:"200";}]]></navigation>
+      <thumbnail><![CDATA[a:3:{s:11:"thumb_width";s:3:"100";s:12:"thumb_height";s:2:"50";s:12:"thumb_amount";s:1:"5";}]]></thumbnail>
+      <visibility><![CDATA[a:3:{s:17:"hide_slider_under";s:1:"0";s:25:"hide_defined_layers_under";s:1:"0";s:21:"hide_all_layers_under";s:1:"0";}]]></visibility>
+      <trouble><![CDATA[a:2:{s:17:"jquery_noconflict";s:2:"on";s:10:"js_to_body";s:5:"false";}]]></trouble>
+      <status><![CDATA[1]]></status>
+    </slideshow>
+  </slideshows>
+  <widget_instance/>
+</sample_data>

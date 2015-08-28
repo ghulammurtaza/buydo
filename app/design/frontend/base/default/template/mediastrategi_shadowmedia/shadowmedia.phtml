@@ -1,0 +1,50 @@
+<?php if ($this->getIsActive()): ?>
+	<?php if (!$this->getCookie()): ?>
+		<?php $this->setCookie(); ?>
+		<style>
+			<?php if ($this->getCloseBtnColor()) : ?>
+				.shadowmedia-close {
+					background-color: <?php echo $this->getCloseBtnColor(); ?> !important;
+				}
+			<?php endif; ?>
+			<?php if ($this->getMinWidth()) { ?>
+			  @media (max-width: <?php echo $this->getMinWidth(); ?>px) {
+					.shadowmedia-modal {
+						min-width: 90% !important;
+					}
+				}
+			<?php } else { ?>
+				@media (max-width: 600px) {
+					.shadowmedia-modal {
+						min-width: 90% !important;
+					}
+				}
+			<?php } ?>
+            <?php if ($this->getFixed() == "yes") : ?>
+                .shadowmedia-modal {
+                    position: fixed;;
+                }
+            <?php endif; ?>
+		</style>
+		<div id="shadowmedia">
+			<div><?php echo $this->getContent(); ?></div>
+		</div>
+		<script type="text/javascript">
+			// Run the modal box
+			var myContent = document.getElementById('shadowmedia');
+			var myModal = new Modal({
+				content: myContent,
+				<?php if ($this->getEffect()) : ?>
+				className: '<?php echo $this->getEffect(); ?>',
+				<?php endif; ?>
+				<?php if ($this->getMaxWidth()) : ?>
+				maxWidth: <?php echo $this->getMaxWidth(); ?>,
+				<?php endif; ?>
+				<?php if ($this->getMinWidth()) : ?>
+				minWidth: <?php echo $this->getMinWidth(); ?>
+				<?php endif; ?>
+			});
+			myModal.open();
+		</script>
+	<?php endif; ?>
+<?php endif; ?>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Gala_Galavineyardsettings>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Gala_Galavineyardsettings>
+    </modules>
+</config>

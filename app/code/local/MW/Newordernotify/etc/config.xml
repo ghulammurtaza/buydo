@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MW_Newordernotify>
+            <version>0.1.0</version>
+        </MW_Newordernotify>
+    </modules>    
+    <adminhtml>  
+		<acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                 <admin>
+                    <children>                    	
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <mw_mageworld_newordernotify>
+                                            <title>Feature Category(s)</title>
+                                        </mw_mageworld_newordernotify>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin> 
+            </resources>
+        </acl>	
+
+    </adminhtml>   
+    <global>        
+        <!-- <models>
+	        <sales>
+	        	<rewrite>
+	                <order>MW_Newordernotify_Model_Newordernotify</order>
+	            </rewrite>
+            </sales>
+        </models>-->
+        <models>
+        	<newordernotify>
+                <class>MW_Newordernotify_Model</class>
+                <resourceModel>newordernotify_mysql4</resourceModel>
+        	</newordernotify>
+        </models>
+        <events>
+        	<checkout_type_onepage_save_order_after>
+                <observers>
+                    <newordernotify>
+                        <type>singleton</type>
+                        <class>newordernotify/observer</class>
+                        <method>checkout_type_onepage_save_order_after</method>
+                    </newordernotify>
+                </observers>
+            </checkout_type_onepage_save_order_after>
+        </events>
+       <helpers>
+            <newordernotify>
+                <class>MW_Newordernotify_Helper</class>
+            </newordernotify>
+        </helpers>
+		
+		<template>
+            <email>
+                <mw_mageworld_newordernotify_mgoptions_mgemail_template translate="label" module="newordernotify">
+                    <label>New Order Notify</label>
+                    <file>sales/order_new_notify.html</file>
+                    <type>html</type>
+                </mw_mageworld_newordernotify_mgoptions_mgemail_template>				
+            </email>
+        </template>
+    </global>
+    <default>
+        <mw_mageworld_newordernotify>            
+            <mgoptions>				
+                <mgrecipient_email><![CDATA[hello@example.com]]></mgrecipient_email>
+                <mgsender_email_identity>general</mgsender_email_identity>
+                <mgemail_template>mw_mageworld_newordernotify_mgoptions_mgemail_template</mgemail_template>				
+            </mgoptions>			
+        </mw_mageworld_newordernotify>
+    </default>
+</config>

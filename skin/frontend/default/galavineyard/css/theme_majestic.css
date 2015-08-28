@@ -1,0 +1,46 @@
+.brand-logo{background-image:url(../images/logos-majestic.png)}
+
+.toolbar-dropdown span.current{background-image:url(../images/btn-select-majestic.png)}
+
+
+ul.tick li,
+.icon,
+.link-wishlist,
+.add-to-links li a,
+.form-search button.button span span,
+.label-top-cart,
+.link-top-cart p.cart-title a,
+.breadcrumbs li span.separator,
+.view-mode .grid, 
+.view-mode .list,
+.tp-rightarrow.default,
+.tp-leftarrow.default,
+.featured-category .prev,
+.featured-category .next,
+.more-views a.prev,
+.more-views a.next,
+.product-view .box-up-sell a.prev,
+.product-view .box-up-sell a.next,
+.product-view .product-shop a.prev-product,
+.product-view .product-shop a.next-product,
+.cart .crosssell a.prev,
+.cart .crosssell a.next{background-image:url(../images/icons-majestic.png)}
+
+
+/*-------------*/
+.featured-wine > h3,
+.featured-category h3{
+opacity:1; filter:alpha(opacity=100);}
+
+#home-tabs .ui-tabs-nav li:hover a, 
+#home-tabs .ui-tabs-nav li.ui-tabs-selected a{background-image:url(../images/icons_tab_majestic.png);}
+
+.widgets_home.from-our-blog .feed-content,
+.widgets_home.from-our-blog .feed-date{
+color:/*BEGIN:bd_text2_color*/#505050/*END:bd_text2_color*/; }
+.em-footer-container .box p.h5{color:/*BEGIN:bd_text_color*/#000/*END:bd_text_color*/;}
+
+.em-topsearch{border: 1px solid /*BEGIN:bd_line_color*/#cbcbcb/*END:bd_line_color*/;}
+.link-top-cart p.cart-title a{color:/*BEGIN:tm_text_color*/#000/*END:tm_text_color*/;}
+.qty-top-cart{#3b2f57}
+.ui-tabs .ui-tabs-nav li a{color:/*BEGIN:bd_text2_color*/#505050/*END:bd_text2_color*/; }

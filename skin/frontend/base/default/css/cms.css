@@ -1,0 +1,65 @@
+/* subscriber popup starts */
+bokha-popup{
+	max-width:600px;
+	margin:auto;
+	position:relative;
+	font-size:0;
+}
+.bokha-popup .formbox{
+	position:absolute;
+	left:0;
+	bottom:15px;
+	width:100%;
+	text-align: center;
+}
+.bokha-popup .input-box{
+	display:inline-block;
+	height:35px;
+	text-align:left;
+	position:relative;
+	min-width:344px;
+	border:#c4c4c4 solid 1px;
+}
+.bokha-popup .input-box input{
+	background:none;
+	border:none;
+	width:80%;
+	padding-left:10px;
+	color:#979797;
+	font-size:13px;
+	position:relative;
+	top:6px;
+}
+.bokha-popup .input-box button{
+	position:absolute;
+	right:-1px;
+	top:-1px;
+	height:37px;
+	border:none;
+	color:#fff;
+	padding:0 15px;
+	cursor:pointer;
+	background:none;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec2625+0,a70301+100 */
+background: #ec2625; /* Old browsers */
+background: -moz-linear-gradient(top,  #ec2625 0%, #a70301 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ec2625), color-stop(100%,#a70301)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ec2625 0%,#a70301 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ec2625 0%,#a70301 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ec2625 0%,#a70301 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ec2625 0%,#a70301 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec2625', endColorstr='#a70301',GradientType=0 ); /* IE6-9 */
+	
+}
+.bokha-popup .input-box button:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#be8430+0,8f6221+100 */
+background: #be8430; /* Old browsers */
+background: -moz-linear-gradient(top,  #be8430 0%, #8f6221 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#be8430), color-stop(100%,#8f6221)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #be8430 0%,#8f6221 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #be8430 0%,#8f6221 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #be8430 0%,#8f6221 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #be8430 0%,#8f6221 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#be8430', endColorstr='#8f6221',GradientType=0 ); /* IE6-9 */
+}
+/*End of subscriber popup */

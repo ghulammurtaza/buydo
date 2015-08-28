@@ -1,0 +1,110 @@
+Hammersmith One, Cagliostro , Carter One, Maven Pro, Short Stack
+/* font */
+font: /*BEGIN:general_font*/normal 12px/1.35 Arial,Helvetica,sans-serif/*END:general_font*/;
+font:/*BEGIN:h1_font*/normal 22px/1.15 Arial,Helvetica,sans-serif/*END:h1_font*/;
+font:/*BEGIN:h2_font*/normal 20px/1.25 Arial,Helvetica,sans-serif/*END:h2_font*/;
+font:/*BEGIN:h3_font*/normal 18px/1.25 Arial,Helvetica,sans-serif/*END:h3_font*/;
+font:/*BEGIN:h4_font*/normal 16px/1.35 Arial,Helvetica,sans-serif/*END:h4_font*/;
+font:/*BEGIN:h5_font*/normal 14px/1.35 Arial,Helvetica,sans-serif/*END:h5_font*/;
+font:/*BEGIN:h6_font*/normal 12px/1.35 Arial,Helvetica,sans-serif/*END:h6_font*/;
+
+/* header */	
+color:/*BEGIN:head_text_color*/#000/*END:head_text_color*/; 
+background-color:/*BEGIN:head_bg_color*/#fff/*END:head_bg_color*/;
+background-image:/*BEGIN:head_bg_image*/url(../images/stripes/blank.gif)/*END:head_bg_image*/;
+background-position:/*BEGIN:head_bg_position*/0 0/*END:head_bg_position*/;
+background-repeat:/*BEGIN:head_bg_repeat*/repeat/*END:head_bg_repeat*/;
+ 
+/* menu */
+/* top menu*/
+background-color:/*BEGIN:tm_bg_color*/#fff/*END:tm_bg_color*/;
+background-color:/*BEGIN:tm_hover_bg_color*/#000/*END:tm_hover_bg_color*/;
+border:1px solid /*BEGIN:tm_line_color*/#cbcbcb/*END:tm_line_color*/;
+color:/*BEGIN:tm_text_color*/#000/*END:tm_text_color*/;
+color:/*BEGIN:tm_hover_text_color*/#fff/*END:tm_hover_text_color*/ ;
+font:/*BEGIN:tm_font*/normal 14px/1.35 Arial,Helvetica,sans-serif/*END:tm_font*/;
+    
+/* dropdown menu */
+background-color:/*BEGIN:dm_bg_color*/#fff/*END:dm_bg_color*/;
+color:/*BEGIN:dm_text_color*/#000/*END:dm_text_color*/;
+color:/*BEGIN:dm_text2_color*/#808080/*END:dm_text2_color*/;
+color:/*BEGIN:dm_hover_text_color*/#000/*END:dm_hover_text_color*/;
+font:/*BEGIN:dm_font*/normal 12px/1.35 Arial,Helvetica,sans-serif/*END:dm_font*/;
+	
+/* body */
+background-color:/*BEGIN:bd_bg_color*/#fff/*END:bd_bg_color*/;
+background-color:/*BEGIN:bd_bg2_color*/#000/*END:bd_bg2_color*/;
+background-color:/*BEGIN:bd_bg3_color*/#e6e6e8/*END:bd_bg3_color*/;
+background-image: /*BEGIN:bd_bg_image*/url(../images/stripes/blank.gif)/*END:bd_bg_image*/;
+background-position:/*BEGIN:bd_bg_position*/0 0/*END:bd_bg_position*/;
+background-repeat:/*BEGIN:bd_bg_repeat*/repeat/*END:bd_bg_repeat*/;
+    
+color:/*BEGIN:bd_text_color*/#000/*END:bd_text_color*/; <body text>;
+color:/*BEGIN:bd_text2_color*/#505050/*END:bd_text2_color*/; 
+color:/*BEGIN:bd_text3_color*/ #63BF00 /*END:bd_text3_color*/; //chua dung
+color:/*BEGIN:bd_text4_color*/ #fff /*END:bd_text4_color*/; title block;
+	
+border: 1px solid /*BEGIN:bd_line_color*/#cbcbcb/*END:bd_line_color*/;
+border: 1px solid /*BEGIN:bd_line2_color*/#dcdcdc/*END:bd_line2_color*/;
+    
+border-radius:/*BEGIN:bd_rounded_corner*/25px/*END:bd_rounded_corner*/;
+-moz-border-radius:/*BEGIN:bd_rounded_corner*/25px/*END:bd_rounded_corner*/;
+-webkit-border-radius:/*BEGIN:bd_rounded_corner*/25px/*END:bd_rounded_corner*/;
+
+box-shadow: /*BEGIN:bd_box_shadow*/0 0 5px #c4c4c3/*END:bd_box_shadow*/ ;
+-moz-box-shadow: /*BEGIN:bd_box_shadow*/0 0 5px #c4c4c3/*END:bd_box_shadow*/ ;
+-webkit-box-shadow: /*BEGIN:bd_box_shadow*/0 0 5px #c4c4c3/*END:bd_box_shadow*/ ;
+
+            
+/* footer */
+background-color:/*BEGIN:foot_bg_color*/#fff/*END:foot_bg_color*/;
+background-image: /*BEGIN:foot_bg_image*/url(../images/stripes/blank.gif)/*END:foot_bg_image*/;
+background-position:/*BEGIN:foot_bg_position*/0 0/*END:foot_bg_position*/;
+background-repeat:/*BEGIN:foot_bg_repeat*/repeat/*END:foot_bg_repeat*/;
+color:/*BEGIN:foot_text_color*/#000/*END:foot_text_color*/;
+border: 1px solid /*BEGIN:foot_line_color*/#000/*END:foot_line_color*/;
+border: 1px solid /*BEGIN:foot_line2_color*/#cbcbcb/*END:foot_line2_color*/;
+
+
+/* button */	
+background:/*BEGIN:btn1_bg_color*/#fff/*END:btn1_bg_color*/;
+color:/*BEGIN:btn1_text_color*/#202020/*END:btn1_text_color*/;
+border: 1px solid /*BEGIN:btn1_line_color*/ #bfbfbf/*END:btn1_line_color*/;
+font:/*BEGIN:btn1_font*/normal 12px/1.35 Arial,Helvetica,sans-serif/*END:btn1_font*/;	
+	
+/* add to cart */
+background:/*BEGIN:btn2_bg_color*/#d70000/*END:btn2_bg_color*/;
+color:/*BEGIN:btn2_text_color*/#fff/*END:btn2_text_color*/;
+border: 1px solid /*BEGIN:btn2_line_color*/ #d70000/*END:btn2_line_color*/;
+font:/*BEGIN:btn2_font*/normal 14px/1.35 Arial,Helvetica,sans-serif/*END:btn2_font*/;
+
+/* wrapper */
+background-color:/*BEGIN:page_bg_color*/#fff/*END:page_bg_color*/;
+background-image: /*BEGIN:page_bg_image*/url(../images/stripes/blank.gif)/*END:page_bg_image*/;
+background-position: /*BEGIN:page_bg_position*/0 0/*END:page_bg_position*/;
+background-repeat: /*BEGIN:page_bg_repeat*/repeat/*END:page_bg_repeat*/;
+
+/*+++++++ Size Image +++++++++*/
+- Category Grid,List:260x260x;
+- Dropdowncart:70x70;
+- Detail Page: 500x500;
+- Upsell: 245x260;
+- Related Product: 70x70;
+- Crossell: 260x260;
+- Block Wishlist: 70x70;
+- Moreview:70x70;
+- Cart Table: 90x90;
+- Compare Page: 208x208.
+
+- Upsell, Crossell: product name de tren image.
+- Trang checkout: bo block compare,  Community Poll ,  Popular Tags.
+- Trang Login: col-left: de nhu design.
+- Trang Create: de 2 col-left nhu design.
+
+- Khong xai button 3.
+
+delete bien:
+foot_bg2_color,
+
+opacity:0.5; filter:alpha(opacity=50);
+.form-search #search_autocomplete_iefix{ left: -1px !important; top: 28px !important}

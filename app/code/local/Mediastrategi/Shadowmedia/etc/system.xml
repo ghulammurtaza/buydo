@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <mediastrategi>
+            <label>Mediastrategi</label>
+            <sort_order>100</sort_order>
+        </mediastrategi>
+    </tabs>
+    <sections>
+        <mediastrategi_shadowmedia>
+            <label>Shadowmedia</label>
+            <tab>mediastrategi</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general>
+                    <label>General Settings</label>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <status>
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>
+                                adminhtml/system_config_source_yesno
+                            </source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </status>
+                    </fields>
+                </general>
+                <design>
+                    <label>Design Settings</label>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <effect>
+                            <label>Box Effect</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>
+                                mediastrategi_shadowmedia/source_effects
+                            </source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </effect>
+                        <close>
+                            <label>Close Button Color</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>11</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[
+                                Background color for the close button, ex: #000000
+                            ]]></comment>
+                        </close>
+                        <max-width>
+                            <label>Max Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[
+                                Max width of the box, ex: 600
+                            ]]></comment>
+                        </max-width>
+                        <min-width>
+                            <label>Min Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>13</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[
+                                Min width of the box, ex: 280
+                            ]]></comment>
+                        </min-width>
+                        <fixed>
+                            <label>Fixed</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>
+                                mediastrategi_shadowmedia/source_fixed
+                            </source_model>
+                            <sort_order>14</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[
+                                Should the box always be positioned centered on the screen?
+                            ]]></comment>
+                        </fixed>
+                    </fields>
+                </design>
+                <cookie>
+                    <label>Cookie Settings</label>
+                    <sort_order>30</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <timeout>
+                            <label>Cookie Timeout</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment><![CDATA[
+                                This is the amount of time
+                                a cookie will last
+                            ]]></comment>
+                        </timeout>
+                        <timeout_unit>
+                            <label>Cookie Timeout Unit</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>
+                                mediastrategi_shadowmedia/source_units
+                            </source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </timeout_unit>
+                    </fields>
+                </cookie>
+                <content>
+                    <label>Content Settings</label>
+                    <sort_order>40</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <content>
+                            <label>Content</label>
+                            <frontend_type>editor</frontend_type>
+                            <frontend_model>mediastrategi_shadowmedia/adminhtml_system_config_editor</frontend_model>
+                            <sort_order>150</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </content>
+                    </fields>
+                </content>
+            </groups>
+        </mediastrategi_shadowmedia>
+    </sections>
+</config>

@@ -1,0 +1,70 @@
+<?php
+	$model	=	Mage::getModel('catalog/category');
+	$rootCategoryId = Mage::app()->getStore()->getRootCategoryId();
+	$category = $model->load($rootCategoryId);	
+	$curId = $this->getRequest()->getParam('cat');
+	
+	$_helper    = $this->helper('catalog/output');
+	
+	$cates	=	Mage::helper('galavineyardsettings')->getCategoriesCustom($category,$curId);
+    $limit = $cates->count();
+	
+    $w = 300;
+    $h = 300;
+    
+    $setting = Mage::helper('galavineyardsettings');
+    $pageLayout = substr((str_replace(array('page/','.phtml'),'',Mage::app()->getLayout()->getBlock('root')->getTemplate())),0,1);   
+    $isTablet = $setting->checkTabletPhp();
+    if($isTablet == 'true'){
+        $maxItem = 3;
+    }else{
+        $maxItem = 4;
+    }
+    switch ($pageLayout){
+    	case 2: if($isTablet == 'true'){
+                    $maxItem = 2;
+                }else{
+                    $maxItem = 3;
+                }
+    			break;
+    	case 3:	$maxItem = 2;
+    			break;
+    }
+    $isMobile = $setting->checkMobilePhp();
+    if($isMobile == 'true'){$maxItem=2;}
+?>
+
+<div class="featured_category_content" id="slider_category">
+    <ul class="products-grid">
+    	<?php $i=1; foreach($cates as $_cate): ?>
+    	<?php $_cate	=	Mage::getModel('catalog/category')->load($_cate->getId()); ?>
+        <?php if($_cate->getIsActive() == 1): ?>
+    	<li class="item" >
+            <div class="item_slider_category">
+        		<h2>
+        			<a href="<?php echo $_cate->getUrl() ?>"
+        			title="<?php echo $_helper->categoryAttribute($_cate, $_cate->getName(), 'name') ?>">
+                    <?php echo $_helper->categoryAttribute($_cate, $_cate->getName(), 'name') ?></a>
+                </h2>        			
+        		<?php if(Mage::getModel('catalog/category')->load($_cate->getId())->getThumbnail() != "") : ?>
+        			<a href="<?php echo $_cate->getUrl() ?>"
+        				title="<?php echo $_helper->categoryAttribute($_cate, $_cate->getName(), 'name') ?>">
+        				<img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'catalog/category/'.Mage::getModel('catalog/category')->load($_cate->getId())->getThumbnail(); ?>"	alt="<?php echo $_helper->categoryAttribute($_cate, $_cate->getName(), 'name') ?>" width="100%" />
+        			</a> 
+        		<?php endif ?>
+        	</div>
+    	</li>
+        <?php endif;?>        
+    	<?php $i++; endforeach ?>
+    </ul>
+    <?php if($limit > ($maxItem)): ?>
+		<div class="clearfix"></div>
+		<a title="<?php echo $this->__('Previous');?>" id="prev_cate" class="prev" href="#"><?php echo $this->__('Previous');?></a>
+		<a title="<?php echo $this->__('Next');?>" id="next_cate" class="next" href="#"><?php echo $this->__('Next');?></a>
+		<script type="text/javascript">
+			jQuery(window).bind('load', function() {
+				doCarouFredSel('#slider_category ul.products-grid',1,<?php echo $maxItem?>,false,1,"#prev_cate","#next_cate",180);
+			});
+		</script>
+	<?php endif ?>
+</div>

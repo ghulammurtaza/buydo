@@ -1,0 +1,95 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<?php
+    // fix bug dropdown cart price total become zero in multishipping page
+    if (Mage::app()->getRequest()->getControllerName()=='multishipping_address') {
+    	$quote = Mage::getSingleton('checkout/cart')->getQuote();
+    	$quote->collectTotals();
+    	$quote->getShippingAddress()->collectTotals();
+    }
+    $login = new Mage_Customer_Block_Form_Login();
+?>
+<div class="em-header-container em-header-wrapper">
+    <div class="em-header container_24 ">
+		<div class="em-header-content">
+			<div class="grid_24 em-header-top">
+				<div class="em-toplink">
+                    <div class="toplink-left">
+    					<p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p>
+    					<ul class="links">
+    						<?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?>
+    						<li class="login_login"><a title="<?php echo $this->__('Log in') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/login/'; ?>" ><?php echo $this->__('Log in') ?></a></li>
+    						<li class="login_signup"><span><?php echo $this->__(' or ') ?></span><a title="<?php echo $this->__('Create an account') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create'; ?>"><?php echo $this->__('Create an account') ?></a></li>
+    						<?php else: ?>
+                                <li><a title="<?php echo $this->__('My Account'); ?>" href="<?php echo $this->getBaseUrl()?>customer/account/" class="link-account" id="link_account"><?php echo $this->__('My Account') ?></a></li>
+    							<li class="login_logout"><a title="<?php echo $this->__('Log out') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/logout'; ?>"><?php echo $this->__('Log out') ?></a></li>
+    						<?php endif ?>
+    					</ul>
+                    </div>
+                    <div class="toplink-right">					
+						<?php //echo $this->getChildHtml('store_switcher');?>	
+    					<?php //echo $this->getChildHtml('store_language') ?>
+    					<?php echo $this->getChildHtml('header.currency') ?>                        
+                    </div>				
+				</div>
+			</div>
+            <div class="clear"></div>
+            <div class="grid_24 em-header-bottom">
+                <div class="em-logo">				
+    				<a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+                    <p>Your premium source for the best dokha's from around the globe..</p>
+    			</div>
+                <div class="em-topsearch">
+					<?php //echo $this->getChildHtml('topSearch') ?>
+				</div>
+            </div>
+		</div>
+    </div>
+    <div class="em-header-menu">
+    	<div class="container_24">
+    		<div class="header-menu-content">
+                <div id="sticky-anchor"></div>
+    			<div class="grid_24 fixed-top-header">  					               
+					<div class="em-menu">
+						<?php if(Mage::helper("galavineyardsettings/mainmenu")->gettype() != 0) : ?>
+							<?php echo Mage::helper("galavineyardsettings/mainmenu")->getmenu(); ?>
+						<?php else : ?>
+							<?php echo $this->getChildHtml('topMenu') ?>
+						<?php endif ?>
+					</div>
+    				<div class="em-quick-access"> 
+    					<div class="em-top-cart"><?php echo $this->getChildHtml('cart_sidebar'); ?></div>    					
+    				</div>
+    				<?php echo $this->getChildHtml('topContainer'); ?>            
+    			</div>   
+    		</div>
+    	</div>
+    </div>
+</div>

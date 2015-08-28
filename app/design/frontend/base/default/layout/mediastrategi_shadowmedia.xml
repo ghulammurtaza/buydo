@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <script>js/jquery.fitvids.js</script>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <script>js/mediastrategi_shadowmedia.js</script>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <stylesheet>css/mediastrategi_shadowmedia.css</stylesheet>
+            </action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="mediastrategi_shadowmedia/shadowmedia"
+              name="mediastrategi_shadowmedia_shadowmedia"
+              template="mediastrategi_shadowmedia/shadowmedia.phtml" />
+        </reference>
+    </default>
+</layout>

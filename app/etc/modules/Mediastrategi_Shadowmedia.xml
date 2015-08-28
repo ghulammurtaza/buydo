@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Mediastrategi_Shadowmedia>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Mediastrategi_Shadowmedia>
+    </modules>
+</config>

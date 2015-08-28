@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adminhtml>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <mediastrategi_shadowmedia>
+                                        <title>Mediastrategi Shadowmedia</title>
+                                    </mediastrategi_shadowmedia>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</adminhtml>

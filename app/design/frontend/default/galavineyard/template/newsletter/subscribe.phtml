@@ -1,0 +1,23 @@
+<form action="<?php echo $this->getBaseUrl() ?>newsletter/subscriber/new" method="post" id="newsletter-validate-detail">
+    <script type="text/javascript">
+        function clearText(theField)
+        {
+            if (theField.defaultValue == theField.value)
+                theField.value = '';
+        }
+
+        function addText(theField)
+        {
+            if (theField.value == '')
+                theField.value = theField.defaultValue;
+        }
+    </script>
+    <input type="text" name="email" id="newsletter" onblur="addText(this);" onfocus="clearText(this)" value="<?php echo $this->__('Enter email address') ?>" title="<?php echo $this->__('Sign up for our newsletter') ?>" class="input-text required-entry validate-email" />
+    <button>Get My 10% Off</button>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+    var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+//]]>
+</script>
+</div>
