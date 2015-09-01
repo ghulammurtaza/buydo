@@ -141,62 +141,75 @@
 	<?php echo $htmlBeforeSlider?>
 				
 <div id="<?php echo $sliderHtmlID_wrapper?>" class="<?php echo $sliderWrapperClass?>" style="<?php echo $containerStyle?>">
-   <div id="<?php echo $sliderHtmlID ?>" class="<?php echo $sliderClass?>" style="<?php echo $bannerStyle?>">
-		<ul>
-			<!-- THE BOXSLIDE EFFECT EXAMPLES  WITH LINK ON THE MAIN SLIDE EXAMPLE -->
-			<?php
-				$thumbWidth = $slider["thumbnail"]["thumb_width"];
-				$thumbHeight = $slider["thumbnail"]["thumb_height"];
-				
-				$slideWidth = $bannerWidth;
-				$slideHeight = $bannerHeight;
-				
-				$navigationType = $slider["navigation"]["nav_type"]; 
-				$isThumbsActive = ($navigationType == "thumb")?true:false;
-			?>
-			<?php foreach($images as $key=>$value): ?>
-			<?php
-				//get thumb url
-				$htmlThumb = "";
-				if($isThumbsActive == true){
-					$urlThumb = "";
-
-					if(empty($urlThumb)){	//try to get resized thumb
-						$pathThumb = $value['url'];
-						if(!empty($pathThumb))
-							$urlThumb = $this->getResizeImage($pathThumb,$thumbWidth,$thumbHeight);
-					}
-
-					//if not - put regular image:
-					if(empty($urlThumb))
-						$urlThumb = $value['url'];
-					
-					$htmlThumb = 'data-thumb="'.$urlThumb.'" ';
-				}
-
-				//set delay
-				$htmlDelay = "";
-				$delay = $slider["delay"];
-				if(!empty($delay) && is_numeric($delay))
-					$htmlDelay = "data-delay=\"$delay\" ";
-
-				//set full width centering.
-				$htmlImageCentering = "";
-				$fullWidthCentering = "true";
-				if($sliderType == "fullwidth" && $fullWidthCentering == "true")
-					$htmlImageCentering = 'data-fullwidthcentering="true"';
-
-				$htmlParams = $htmlThumb.$htmlDelay;
-			?>
-				<li data-transition="<?php echo $value['trans'] ?>" data-slotamount="<?php echo $value['slotamount'] ?>" <?php if($value['link'] != ""): ?> data-link="<?php echo $value['link'] ?>"<?php endif?> <?php echo $htmlParams?>>
-				   <img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'em_slideshow/'.$value['url']; ?>" alt="" <?php echo $htmlImageCentering?> />
-				   <?php foreach($value['info'] as $skey=>$sval): ?>
-						<div class="caption <?php echo $sval['animation'] ?> <?php echo $sval['class'] ?>" data-x="<?php echo $sval['data_x'] ?>" data-y="<?php echo $sval['data_y'] ?>"	data-speed="<?php echo $sval['speed'] ?>" data-start="<?php echo $sval['start'] ?>" <?php if($sval['end']):?> data-end="<?php echo $sval['end'] ?>" <?php endif ?> data-easing="<?php echo $sval['easing'] ?>" ><?php echo $model->filter($sval['text']) ?></div>
-				   <?php endforeach ?>
-				</li>
-			<?php endforeach ?>
-		</ul>
-		<?php echo $htmlTimerBar?>
+   
+   <div class="container_24">
+       <div class="grid_18">
+       		<div id="<?php echo $sliderHtmlID ?>" class="<?php echo $sliderClass?>" style="<?php echo $bannerStyle?>">
+            <ul>
+                <!-- THE BOXSLIDE EFFECT EXAMPLES  WITH LINK ON THE MAIN SLIDE EXAMPLE -->
+                <?php
+                    $thumbWidth = $slider["thumbnail"]["thumb_width"];
+                    $thumbHeight = $slider["thumbnail"]["thumb_height"];
+                    
+                    $slideWidth = $bannerWidth;
+                    $slideHeight = $bannerHeight;
+                    
+                    $navigationType = $slider["navigation"]["nav_type"]; 
+                    $isThumbsActive = ($navigationType == "thumb")?true:false;
+                ?>
+                <?php foreach($images as $key=>$value): ?>
+                <?php
+                    //get thumb url
+                    $htmlThumb = "";
+                    if($isThumbsActive == true){
+                        $urlThumb = "";
+    
+                        if(empty($urlThumb)){	//try to get resized thumb
+                            $pathThumb = $value['url'];
+                            if(!empty($pathThumb))
+                                $urlThumb = $this->getResizeImage($pathThumb,$thumbWidth,$thumbHeight);
+                        }
+    
+                        //if not - put regular image:
+                        if(empty($urlThumb))
+                            $urlThumb = $value['url'];
+                        
+                        $htmlThumb = 'data-thumb="'.$urlThumb.'" ';
+                    }
+    
+                    //set delay
+                    $htmlDelay = "";
+                    $delay = $slider["delay"];
+                    if(!empty($delay) && is_numeric($delay))
+                        $htmlDelay = "data-delay=\"$delay\" ";
+    
+                    //set full width centering.
+                    $htmlImageCentering = "";
+                    $fullWidthCentering = "true";
+                    if($sliderType == "fullwidth" && $fullWidthCentering == "true")
+                        $htmlImageCentering = 'data-fullwidthcentering="true"';
+    
+                    $htmlParams = $htmlThumb.$htmlDelay;
+                ?>
+                    <li data-transition="<?php echo $value['trans'] ?>" data-slotamount="<?php echo $value['slotamount'] ?>" <?php if($value['link'] != ""): ?> data-link="<?php echo $value['link'] ?>"<?php endif?> <?php echo $htmlParams?>>
+                       <img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'em_slideshow/'.$value['url']; ?>" alt="" <?php echo $htmlImageCentering?> />
+                       <?php foreach($value['info'] as $skey=>$sval): ?>
+                            <div class="caption <?php echo $sval['animation'] ?> <?php echo $sval['class'] ?>" data-x="<?php echo $sval['data_x'] ?>" data-y="<?php echo $sval['data_y'] ?>"	data-speed="<?php echo $sval['speed'] ?>" data-start="<?php echo $sval['start'] ?>" <?php if($sval['end']):?> data-end="<?php echo $sval['end'] ?>" <?php endif ?> data-easing="<?php echo $sval['easing'] ?>" ><?php echo $model->filter($sval['text']) ?></div>
+                       <?php endforeach ?>
+                    </li>
+                <?php endforeach ?>
+            </ul>
+            <?php echo $htmlTimerBar?>
+       </div>
+       </div>
+       <div class="grid_6">
+       		<div class="promo-box">
+            	<img src="<?php echo $this->getSkinUrl("images/theme/slide2.png") ?>" />
+            </div>
+            <div class="promo-box">
+            	<img src="<?php echo $this->getSkinUrl("images/theme/slide3.png") ?>" />
+            </div>
+       </div>
    </div>
  
 </div>

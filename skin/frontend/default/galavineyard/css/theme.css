@@ -3308,3 +3308,427 @@ opacity:0.5; filter:alpha(opacity=50);}
 
 .billing-agreements .form-list select,
 .billing-agreements button.button{margin-bottom:10px;}
+
+
+/*Added for new Design*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,600,700);
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('raleway-semibold-webfont.eot');
+    src: url('raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-semibold-webfont.woff2') format('woff2'),
+         url('raleway-semibold-webfont.woff') format('woff'),
+         url('raleway-semibold-webfont.ttf') format('truetype'),
+         url('raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('greatvibes-regular-webfont.eot');
+    src: url('greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('greatvibes-regular-webfont.woff2') format('woff2'),
+         url('greatvibes-regular-webfont.woff') format('woff'),
+         url('greatvibes-regular-webfont.ttf') format('truetype'),
+         url('greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.em-header-top{
+	background:#000000;
+	height:36px;
+}
+.em-header-top a{
+	color:#fff !important;
+	font-size:12px !important;
+}
+.toolbar-dropdown span.current{
+	background:none !important;
+	color:#fff !important;
+	border:none  !important;
+	font-size:12px !important;
+} 
+.em-toplink .links{
+	padding-top:3px;
+	vertical-align:top;
+}
+.block-currency{
+	float:right;
+}
+.em-header-top .toplink-left{
+	width:15%;
+	float:left;
+	padding-top:8px;
+}
+.em-header-top .toplink-right{
+	width:20%;
+	float:right;
+	padding-top:5px;
+	font-family: 'Raleway', sans-serif;
+}
+.em-header-top .toplink-right a{
+	font-size:14px;
+	font-weight:400;
+	display:inline-block;
+	font-family: 'Raleway', sans-serif;	
+}
+.em-header-top .mid-section{
+	float:left;
+	width:60%;
+}
+.em-header-top .links{
+	float:right;
+	font-size:14px;
+	font-weight:400;
+	font-family: 'Raleway', sans-serif;	
+	text-transform:uppercase;
+	padding-top:4px;
+}
+.em-header-top .mid-section{
+	text-align:center;
+	font-size:14px;
+	font-weight:400;
+	padding-top:7px;
+	font-family: 'Open Sans', sans-serif;
+}
+.em-header-top .mid-section a,
+.em-header-top .mid-section > span{
+	margin:0 15px;
+	color:#fff;
+	font-weight:600;
+		font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	line-height:20px;
+	
+}
+.em-header-top .mid-section  img{
+	margin-right:5px;
+}
+.em-logo{
+	padding-top:11px;
+	text-align:left !important;
+}
+.em-logo a{
+	text-align:left !important;
+	display:inline;
+
+}
+.head-buttons{
+	 font-family: 'great_vibesregular';
+	text-align:right;
+}
+.head-buttons a{
+	height:35px;
+	font-size:18px;
+	color:#fff;
+	text-align:center;
+	padding:0 15px;
+	text-decoration:none !important;
+	line-height:39px;
+	 font-family: 'great_vibesregular';
+	display:inline-block;
+	font-weight:bold;
+	text-transform:capitalize;
+	background:#c08631;
+}
+.head-buttons a:hover{
+	background:#000;
+}
+#nav {
+	text-align:right;
+	padding-top:15px;
+	padding-bottom:10px;
+}
+#nav li{
+	display:inline-block !important;
+	float:none !important;
+}
+#nav li a.level-top{
+	padding:0;
+	font-family: 'Raleway', sans-serif;	
+	background:none !important;
+	font-size:13px;
+	margin:0 0 0 25px ;
+	text-transform:uppercase;
+}
+#nav li a.level-top span{
+	transform:scale(1);
+	-webkit-transform:scale(1);
+	transition: all 0.3s ease;
+	display:block;	
+}
+#nav li a.level-top:hover span{
+	color:#c38437;
+	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+}
+.em-logo{
+	margin-bottom:15px !important;
+}
+ .em-logo a{
+	 width: auto !important;
+}
+
+#container_slideshow .grid_6{
+	border-left:10px solid #fff;
+}
+#container_slideshow .grid_6 .promo-box + .promo-box{
+	border-top:10px solid #fff;
+}
+
+html .featured-wine > h3, html .featured-category h3{
+	 font-family: 'great_vibesregular';
+	color:#333;
+	font-weight:400;
+	padding:0 ;
+	text-transform:capitalize;
+	margin:0;
+	font-size:50px;
+	border:none;	
+}
+.create-account{
+	line-height:82px;
+	height:82px;
+	font-family: 'Raleway', sans-serif;
+	font-size:22px;
+	padding:0 15px;
+	position:relative;
+	color:#58595b;
+	font-weight:300;
+	text-transform: uppercase;
+	border:#c08631 solid 1px;
+}
+.create-account strong{
+	font-weight:600;
+	color:#c08631;
+	
+}
+.create-account .create-account-link{
+	position:absolute;
+	right:0;
+	top:0;
+	height:82px;
+	padding:0;
+	background:#c08631;
+	line-height:90px;
+	font-size:36px;
+	 font-family: 'great_vibesregular';
+	padding:0 30px;
+	color:#fff;
+	text-transform:none;
+	text-decoration:none !important;
+	padding-left:40px;
+}
+.create-account .create-account-link:after {
+	  width: 0;
+   height: 0;
+   border-left: 20px solid white;
+   border-top: 10px solid transparent;
+   border-bottom: 10px solid transparent;
+   position:absolute;
+   left:0;
+   content:"";
+   margin-top:-10px;
+   top:50%;
+}
+/*instagram*/
+.instagram {
+	width: 100%;
+	float:left;
+	padding-bottom:50px;
+	padding-top: 47px;
+}
+
+.footer-content,
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.instagram h3 {
+	text-align: center;
+	color: #c08631;
+	font-size: 36px;
+	line-height: 30px;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 41px;
+
+}
+.instagram-left {
+	width: 426px;
+	float: left;
+	margin-right: 10px;
+	
+}
+
+.instagram-mid {
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+}
+
+.instagram-right {
+	width: 423px;
+	float: right;
+}
+.instagram .left{
+	float:left;
+}
+.instagram .right{
+	float:right;
+}
+.instagram .insta-box{
+	font-size:0;
+}
+.instagram .insta-box + .insta-box{
+	margin-top:10px;
+} 
+.instagram-right .insta-box {
+	margin:0 !important;
+}
+.instagram-right .full{
+	margin-top:10px !important;
+	float:left;
+	width:100%;
+}
+.footer-content{
+	clear:both;
+	padding:40px 0;
+	border-bottom:#b5b5b5 solid 1px;
+	border-top:#b5b5b5 solid 1px;
+}
+.footer-content h4{
+	font-weight:500;
+	font-size:30px;
+	margin:0 0 20px !important;
+	 font-family: 'ralewaysemibold';
+	text-transform:uppercase;
+	margin-bottom:20px;	
+}
+.footer-content p{
+	font-size:16px;
+}
+.footer-newsletter{
+	width:47%;
+	font-family: 'Raleway', sans-serif;
+	float:left;
+	padding-right:2%;
+	margin-right:-1px;
+	border-right:solid  1px #ccc;
+	text-align:center;
+}
+.footer-newsletter p{
+	text-transform:uppercase;
+	color:#d47d00;
+	font-size:16px;
+}
+.footer-newsletter p strong{
+	font-size:20px;
+	font-weight:600;
+}
+.footer-newsletter .newsletter{
+	height:48px;
+	border:#d47d00 solid 1px;
+	display:inline-block;
+	width:410px;
+	text-align:left;
+	position:relative;
+}
+
+.footer-newsletter .newsletter input{
+	border:none;
+	width:52%;
+	text-align: left;
+	background:none;
+	padding:18px 7%;
+	font-family: 'Raleway', sans-serif;
+	color:#636363;
+	letter-spacing:1px;
+	font-size:13px;
+	text-transform:uppercase;
+}
+.footer-newsletter .newsletter button{
+	position:absolute;
+	right:0;
+	top:0;
+	border:none;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	font-weight:700;
+	color:#c08631;
+	padding:0 30px;
+	text-transform:uppercase;
+	background:none;
+	border-left:#d47d00 solid 1px;	
+	height:50px;
+}
+.footer-join-us{
+	width:40%;
+	padding-left:7%;
+	float:left;
+}
+.footer-join-us p{
+	font-size:13px;
+	color:#333132;
+}
+.footer-join-us h4{
+	margin-bottom:10px !important;
+}
+
+.info-top,
+.container_24 .grid_6.omega {
+	display:none;
+}
+.em-footer-container .grid_24{
+	border:none;
+}
+.rev_slider_wrapper{
+	max-height:408px !important;
+	overflow:hidden !important;
+}
+.em-footer-container .box p.h5,
+.em-footer-container .box ul{
+	border:none;
+	padding: 0 !important;
+ }
+html .em-footer-container .box p.h5{
+	 font-size:18px;
+	 text-transform:uppercase;
+	 margin-bottom:15px !important;
+}
+.em-footer-container .box ul li{
+	font-size:16px;
+}
+.footer-links {
+	max-width:1170px;
+	margin:auto;
+}
+.footer-links .left{
+	width:762px;
+	float:left;
+}
+.footer-links .right{
+	width:390px;
+	float: right;
+}
+.footer-links .footer-links_box{
+	width:33%;
+	float:left;
+}
+html .em-footer-container .box p.h5{
+	 font-family: 'ralewaysemibold';
+	text-transform:uppercase;	
+}
+.review-box{
+	background: url(../images/theme/review-box.png) no-repeat;
+	height:119px;
+}

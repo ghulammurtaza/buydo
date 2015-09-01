@@ -24,18 +24,118 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
+
 <div class="em-footer-container">
+        
 		<div class="container_24">
-			<div class="grid_24">
-				<?php echo $this->getChildHtml('galavineyard_footer_information') ?>				            
+        <div class="create-account">
+            <strong>Create an Account</strong> and <strong>refer friends</strong> to <strong>get a gift</strong> which keeps on given <a href="#" class="create-account-link">Create an Account</a>
+        </div>
+        
+        <div class="instagram">
+  <div class="container">
+    <h3>#buydokhaonline</h3>
+    <div class="instagram-left">
+          <div class="left"> <a href="#"><img src="<?php echo $this->getSkinUrl("images/theme/insta1.png") ?>" alt=""></a> </div>
+          <div class="right"> 
+          	<div class="insta-box"> <a href="#"><img src="<?php echo $this->getSkinUrl("images/theme/insta2.png") ?>" alt=""></a></div>
+            <div class="insta-box"><a href="#"><img src="<?php echo $this->getSkinUrl("images/theme/insta3.png") ?>" alt=""></a> </div>
+          </div>
+          <div class="clr"></div>
+    </div>
+    <div class="instagram-mid"> <a href="#"><img src="<?php echo $this->getSkinUrl("images/theme/insta4.png") ?>" alt=""></a> </div>
+    <div class="instagram-right">
+      <div class="insta-box left"> <a href="#"><img src="<?php echo $this->getSkinUrl("images/theme/insta5.png") ?>" alt=""></a> </div>
+      <div class="insta-box right"> <a href="#"><img src="<?php echo $this->getSkinUrl("images/theme/insta8.png") ?>" alt=""></a> </div>
+      <div class="insta-box full">
+      	<a href="#"><img src="<?php echo $this->getSkinUrl("images/theme/insta6.png") ?>" alt=""></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+		<div class="footer-content">
+	<div class="footer-newsletter">
+    	<h4>Signup For Newsletter</h4>
+        <p>Sign up to get <strong>10$</strong> off your order</p>
+        <div class="newsletter">
+        	<input type="text" placeholder="Enter your Email" />
+            <button>Sing up</button>
+        </div>
+    </div>
+	<div class="footer-join-us">
+    	<h4>Join Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent<br>
+ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+		<div class="social-sahre">
+        	<a href="#" class="fb"><img src="<?php echo $this->getSkinUrl("images/theme/fb.png") ?>"></a>
+            <a href="#" class="tw"><img src="<?php echo $this->getSkinUrl("images/theme/tw.png") ?>"></a>
+            <a href="#" class="insta"><img src="<?php echo $this->getSkinUrl("images/theme/insta.png") ?>"></a>
+            <a href="#" class="pin"><img src="<?php echo $this->getSkinUrl("images/theme/pin.png") ?>"></a>
+        </div>
+    </div>
+    <div class="clear clr"></div>
+</div>
+        
+        
+			<div class="footer-links">
+				<?php //echo $this->getChildHtml('galavineyard_footer_information') ?>	
+                
+                <div class="left">
+                	<div id="footer-information" class="box text">
+<div class="footer-links_box alpha content">
+<p class="h5">About Order Dokha</p>
+<ul style="display: block;">
+<li><a href="http://localhost/buydo/who-we-are"> <span>Who We Are?</span> </a></li>
+<li><a href="http://localhost/buydo/what-is-dokha"> <span>What is Dokha?</span> </a></li>
+<li><a href="http://localhost/buydo/how-is-dokha-made"> <span>How is Dokha Made?</span> </a></li>
+<li><a href="http://localhost/buydo/why-choose-dokha"> <span>Why Dokha</span></a>?</li>
+</ul>
+</div>
+<div class="footer-links_box content">
+<p class="h5">Why Order Dokha?</p>
+<ul style="display: block;">
+<li><a href="http://localhost/buydo/customer/account/">Your Account</a></li>
+<li><a href="http://localhost/buydo/contacts">Track Order</a></li>
+<li><a href="http://localhost/buydo/sales/order/history/">View Past Order</a></li>
+<li><a href="http://localhost/buydo/wishlist">Wish List</a></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+<div class="footer-links_box content">
+<p class="h5">Customer Service</p>
+<ul style="display: block;">
+<li><a href="http://localhost/buydo/terms">Terms &amp; Conditions </a></li>
+<li><a href="http://localhost/buydo/shipping-policy">Shipping and Delivery</a></li>
+<li><a href="http://localhost/buydo/international-orders">International Orders</a></li>
+<li><a href="http://localhost/buydo/privacy-policy">Privacy Policy </a></li>
+<li><a href="http://localhost/buydo/returns-refund">Returns &amp; Refunds Policy</a></li>
+</ul>
+</div>
+
+</div>
+				</div>
+                <div class="right">
+                	<div class="box">
+                		<p class="h5">Customer Reviews</p>
+                        <div class="review-box">
+                        
+                        </div>
+                    </div>
+                </div>
+                			            
 			</div>  
 		<div class="footer grid_24">
             <?php echo $this->getChildHtml('footer_links') ?> 			
             <div class="f-left ">
-                <div class="footer-container"><address><?php echo $this->getCopyright() ?></address></div>
+                <div class="footer-container">© 2015 BuyDokhaOnline.com |     from Dubai to the world <address><?php //echo $this->getCopyright() ?></address></div>
             </div>
-			<div class="f-right ">              
-				<?php echo $this->getChildHtml('galavineyard_footer_payment') ?>
+			<div class="f-right ">
+	            <img src="<?php echo $this->getSkinUrl("images/theme/scurity-check.png") ?>" />
+                <img src="<?php echo $this->getSkinUrl("images/theme/ssl.png") ?>" />
+                <img src="<?php echo $this->getSkinUrl("images/theme/magento.png") ?>" />
+				<?php //echo $this->getChildHtml('galavineyard_footer_payment') ?>
 			</div>
 		</div>
 		</div>    

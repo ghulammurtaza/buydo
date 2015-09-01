@@ -37,59 +37,78 @@
     $login = new Mage_Customer_Block_Form_Login();
 ?>
 <div class="em-header-container em-header-wrapper">
-    <div class="em-header container_24 ">
-		<div class="em-header-content">
-			<div class="grid_24 em-header-top">
-				<div class="em-toplink">
-                    <div class="toplink-left">
-    					<p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p>
-    					<ul class="links">
-    						<?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?>
-    						<li class="login_login"><a title="<?php echo $this->__('Log in') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/login/'; ?>" ><?php echo $this->__('Log in') ?></a></li>
-    						<li class="login_signup"><span><?php echo $this->__(' or ') ?></span><a title="<?php echo $this->__('Create an account') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create'; ?>"><?php echo $this->__('Create an account') ?></a></li>
-    						<?php else: ?>
-                                <li><a title="<?php echo $this->__('My Account'); ?>" href="<?php echo $this->getBaseUrl()?>customer/account/" class="link-account" id="link_account"><?php echo $this->__('My Account') ?></a></li>
-    							<li class="login_logout"><a title="<?php echo $this->__('Log out') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/logout'; ?>"><?php echo $this->__('Log out') ?></a></li>
-    						<?php endif ?>
-    					</ul>
-                    </div>
-                    <div class="toplink-right">					
-						<?php //echo $this->getChildHtml('store_switcher');?>	
-    					<?php //echo $this->getChildHtml('store_language') ?>
-    					<?php echo $this->getChildHtml('header.currency') ?>                        
-                    </div>				
-				</div>
-			</div>
-            <div class="clear"></div>
-            <div class="grid_24 em-header-bottom">
-                <div class="em-logo">				
-    				<a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
-                    <p>Your premium source for the best dokha's from around the globe..</p>
-    			</div>
-                <div class="em-topsearch">
-					<?php //echo $this->getChildHtml('topSearch') ?>
-				</div>
-            </div>
-		</div>
-    </div>
-    <div class="em-header-menu">
+    <div class="em-header-top">
     	<div class="container_24">
-    		<div class="header-menu-content">
-                <div id="sticky-anchor"></div>
-    			<div class="grid_24 fixed-top-header">  					               
-					<div class="em-menu">
-						<?php if(Mage::helper("galavineyardsettings/mainmenu")->gettype() != 0) : ?>
-							<?php echo Mage::helper("galavineyardsettings/mainmenu")->getmenu(); ?>
-						<?php else : ?>
-							<?php echo $this->getChildHtml('topMenu') ?>
-						<?php endif ?>
-					</div>
-    				<div class="em-quick-access"> 
+            <div class="toplink-left">
+                <img  src="<?php echo $this->getSkinUrl("images/theme/share.png") ?>"  />	
+            
+            </div>
+            <div class="mid-section">
+            	<span>
+                	<img src="<?php echo $this->getSkinUrl("images/theme/icon-mark.png") ?>" />
+                    <span>Genuine Products</span>
+                </span>
+               <span>
+               	<img src="<?php echo $this->getSkinUrl("images/theme/icon-delivery.png") ?>" />
+                <span>Free Delivery</span>
+               </span>
+               <span>
+               	<img src="<?php echo $this->getSkinUrl("images/theme/easy-return.png") ?>" />
+                <span>Easy Returns</span>
+               </span>
+               <span>
+               	<img src="<?php echo $this->getSkinUrl("images/theme/icon-lock.png") ?>" />
+                <span>Secure Shopping</span>
+                </span>
+            </div>
+             			
+            <div class="toplink-right">		
+            	<?php echo $this->getChildHtml('header.currency') ?>      				
+                <ul class="links">
+                        <?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?>
+                        <li class="login_login"><a title="<?php echo $this->__('Login') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/login/'; ?>" ><?php echo $this->__('Log in') ?></a></li>
+                        <li class="login_signup"><span><?php echo $this->__('/') ?></span><a title="<?php echo $this->__('Create an account') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create'; ?>"><?php echo $this->__('Register') ?></a></li>
+                        <?php else: ?>
+                            <li><a title="<?php echo $this->__('My Account'); ?>" href="<?php echo $this->getBaseUrl()?>customer/account/" class="link-account" id="link_account"><?php echo $this->__('My Account') ?></a></li>
+                            <li class="login_logout"><a title="<?php echo $this->__('Log out') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/logout'; ?>"><?php echo $this->__('Log out') ?></a></li>
+                        <?php endif ?>
+                    </ul>
+                                 
+            </div>
+
+        </div>
+    </div>
+    <div class="container_24 ">
+		<div class="em-header-content">
+			<div class="grid_8">
+                <div class="em-logo">				
+                        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+                        
+                    </div>
+       			</div>
+                <div class="grid_16">
+                	<div class="head-buttons">
+                    	<a href="#">The Dokha Club</a>
+                        <a href="#">Wholesale</a>
+                        <a href="#">Reffer to Friend</a>
+                    </div>
+                    <div class="navigation-outer">
+                        <div class="em-menu">
+                            <?php if(Mage::helper("galavineyardsettings/mainmenu")->gettype() != 0) : ?>
+                                <?php echo Mage::helper("galavineyardsettings/mainmenu")->getmenu(); ?>
+                            <?php else : ?>
+                                <?php echo $this->getChildHtml('topMenu') ?>
+                            <?php endif ?>
+                         </div>
+                         <div class="em-quick-access" style="display:none;"> 
     					<div class="em-top-cart"><?php echo $this->getChildHtml('cart_sidebar'); ?></div>    					
     				</div>
-    				<?php echo $this->getChildHtml('topContainer'); ?>            
-    			</div>   
-    		</div>
-    	</div>
+    				<?php //echo $this->getChildHtml('topContainer'); ?>    
+					</div>
+                	 <?php //echo $this->getChildHtml('topSearch') ?>
+                </div>
+           
+		</div>
     </div>
+    
 </div>
