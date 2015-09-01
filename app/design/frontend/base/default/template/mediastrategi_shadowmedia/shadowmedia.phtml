@@ -1,4 +1,26 @@
 <?php if ($this->getIsActive()): ?>
+                <div id="shadowmedia">
+			<div><?php echo $this->getContent(); ?></div>
+		</div>
+                <script type="text/javascript">
+                     function showpopup(){
+			// Run the modal box
+			var myContent = document.getElementById('shadowmedia');
+			var myModal = new Modal({
+				content: myContent,
+				<?php if ($this->getEffect()) : ?>
+				className: '<?php echo $this->getEffect(); ?>',
+				<?php endif; ?>
+				<?php if ($this->getMaxWidth()) : ?>
+				maxWidth: <?php echo $this->getMaxWidth(); ?>,
+				<?php endif; ?>
+				<?php if ($this->getMinWidth()) : ?>
+				minWidth: <?php echo $this->getMinWidth(); ?>
+				<?php endif; ?>
+			});
+			myModal.open();                       
+                }
+                </script>
 	<?php if (!$this->getCookie()): ?>
 		<?php $this->setCookie(); ?>
 		<style>
@@ -26,25 +48,18 @@
                 }
             <?php endif; ?>
 		</style>
-		<div id="shadowmedia">
-			<div><?php echo $this->getContent(); ?></div>
-		</div>
-		<script type="text/javascript">
-			// Run the modal box
-			var myContent = document.getElementById('shadowmedia');
-			var myModal = new Modal({
-				content: myContent,
-				<?php if ($this->getEffect()) : ?>
-				className: '<?php echo $this->getEffect(); ?>',
-				<?php endif; ?>
-				<?php if ($this->getMaxWidth()) : ?>
-				maxWidth: <?php echo $this->getMaxWidth(); ?>,
-				<?php endif; ?>
-				<?php if ($this->getMinWidth()) : ?>
-				minWidth: <?php echo $this->getMinWidth(); ?>
-				<?php endif; ?>
-			});
-			myModal.open();
+		
+		<script type="text/javascript">                     
+                    window.setTimeout( showpopup, 10000 );
 		</script>
 	<?php endif; ?>
+                <script>
+                    document.addEventListener("mousemove", function(e) {
+			// Get current scroll position
+			var scroll = window.pageYOffset || document.documentElement.scrollTop;			
+			if((e.pageY - scroll) < 7){                            
+                            showpopup(); 
+                        }
+		});
+                    </script>
 <?php endif; ?>
