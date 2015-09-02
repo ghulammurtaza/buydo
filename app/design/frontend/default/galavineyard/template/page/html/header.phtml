@@ -79,7 +79,7 @@
             <div class="toplink-right">		
             	<?php echo $this->getChildHtml('header.currency') ?>      				
                 <ul class="links">
-                        <?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?>
+                        <?php if (!Mage::getSingleton('customer/session')->isLoggedIn()): ?>
                         <li class="login_login"><a title="<?php echo $this->__('Login') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/login/'; ?>" ><?php echo $this->__('Log in') ?></a></li>
                         <li class="login_signup"><span><?php echo $this->__('/') ?></span><a title="<?php echo $this->__('Create an account') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create'; ?>"><?php echo $this->__('Register') ?></a></li>
                         <?php else: ?>
