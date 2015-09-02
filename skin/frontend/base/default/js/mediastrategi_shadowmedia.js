@@ -8,6 +8,7 @@
     this.closeButton = null;
     this.modal = null;
     this.overlay = null;
+    this.shown = false;
 
     // Determine proper prefix
     this.transitionEnd = transitionSelect();
@@ -49,6 +50,8 @@
   };
 
   Modal.prototype.open = function() {
+    if(this.shown) return;
+    this.shown = true;
     buildOut.call(this);
     initializeEvents.call(this);
     window.getComputedStyle(this.modal).height;
