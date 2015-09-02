@@ -3,10 +3,8 @@
 			<div><?php echo $this->getContent(); ?></div>
 		</div>
                 <script type="text/javascript">
-                     function showpopup(){
-			// Run the modal box
-			var myContent = document.getElementById('shadowmedia');
-			var myModal = new Modal({
+                    var myContent = document.getElementById('shadowmedia');
+                    var myModal = new Modal({
 				content: myContent,
 				<?php if ($this->getEffect()) : ?>
 				className: '<?php echo $this->getEffect(); ?>',
@@ -18,6 +16,8 @@
 				minWidth: <?php echo $this->getMinWidth(); ?>
 				<?php endif; ?>
 			});
+                     function showpopup(){
+			// Run the modal box					
 			myModal.open();                       
                 }
                 </script>
@@ -56,10 +56,13 @@
                 <script>
                     document.addEventListener("mousemove", function(e) {
 			// Get current scroll position
-			var scroll = window.pageYOffset || document.documentElement.scrollTop;			
-			if((e.pageY - scroll) < 7){                            
-                            showpopup(); 
+			var scroll = window.pageYOffset || document.documentElement.scrollTop;		
+			if((e.pageY - scroll) < 3){                            
+                            showpopup();
                         }
+                    });
+                    window.addEventListener("resize", function() {
+			showpopup();
 		});
                     </script>
 <?php endif; ?>
