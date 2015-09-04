@@ -107,18 +107,22 @@
                         <a href="#">Reffer to Friend</a>
                     </div>
                     <div class="navigation-outer">
-                        <div class="em-menu">
+                        
+                         
+                         <div class="em-quick-access"> 
+    					<div class="em-top-cart"><?php echo $this->getChildHtml('cart_sidebar'); ?></div>    					
+    				</div>
+    				<?php echo $this->getChildHtml('topContainer'); ?>    
+					</div>
+                    <div class="search-box"></div>
+                    
+                    <div class="em-menu">
                             <?php if(Mage::helper("galavineyardsettings/mainmenu")->gettype() != 0) : ?>
                                 <?php echo Mage::helper("galavineyardsettings/mainmenu")->getmenu(); ?>
                             <?php else : ?>
                                 <?php echo $this->getChildHtml('topMenu') ?>
                             <?php endif ?>
                          </div>
-                         <div class="em-quick-access" style="display:none;"> 
-    					<div class="em-top-cart"><?php echo $this->getChildHtml('cart_sidebar'); ?></div>    					
-    				</div>
-    				<?php //echo $this->getChildHtml('topContainer'); ?>    
-					</div>
                 	 <?php //echo $this->getChildHtml('topSearch') ?>
                 </div>
            
