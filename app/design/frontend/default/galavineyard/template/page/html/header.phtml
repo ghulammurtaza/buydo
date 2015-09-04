@@ -40,8 +40,22 @@
     <div class="em-header-top">
     	<div class="container_24">
             <div class="toplink-left">
-                <img  src="<?php echo $this->getSkinUrl("images/theme/share.png") ?>"  />	
-            
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-like" data-href="https://www.facebook.com/buydokhaonline" data-width="225" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+                <a href="https://twitter.com/BuyDokhaOnline" class="twitter-follow-button" data-show-count="true" data-size="medium">Follow @BuyDokhaOnline</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>         
+                <!-- Place this tag in your head or just before your close body tag. -->
+                <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+                <!-- Place this tag where you want the widget to render. -->
+                <div class="g-follow" data-annotation="bubble" data-height="15" data-href="https://plus.google.com/113242772946755559790" data-rel="publisher"></div>
             </div>
             <div class="mid-section">
             	<span>
@@ -65,7 +79,7 @@
             <div class="toplink-right">		
             	<?php echo $this->getChildHtml('header.currency') ?>      				
                 <ul class="links">
-                        <?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?>
+                        <?php if (!Mage::getSingleton('customer/session')->isLoggedIn()): ?>
                         <li class="login_login"><a title="<?php echo $this->__('Login') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/login/'; ?>" ><?php echo $this->__('Log in') ?></a></li>
                         <li class="login_signup"><span><?php echo $this->__('/') ?></span><a title="<?php echo $this->__('Create an account') ?>" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create'; ?>"><?php echo $this->__('Register') ?></a></li>
                         <?php else: ?>
@@ -90,15 +104,9 @@
                 	<div class="head-buttons">
                     	<a href="#">The Dokha Club</a>
                         <a href="#">Wholesale</a>
-                        <a href="#" class="blackButton">Reffer to Friend</a>
+                        <a href="#">Reffer to Friend</a>
                     </div>
                     <div class="navigation-outer">
-                        <div class="em-quick-access" > 
-                            <div class="em-top-cart"><?php echo $this->getChildHtml('cart_sidebar'); ?></div>    					
-                        </div>
-                        <div class="search-box">
-                        	&nbsp;
-                        </div>
                         <div class="em-menu">
                             <?php if(Mage::helper("galavineyardsettings/mainmenu")->gettype() != 0) : ?>
                                 <?php echo Mage::helper("galavineyardsettings/mainmenu")->getmenu(); ?>
@@ -106,7 +114,9 @@
                                 <?php echo $this->getChildHtml('topMenu') ?>
                             <?php endif ?>
                          </div>
-                         
+                         <div class="em-quick-access" style="display:none;"> 
+    					<div class="em-top-cart"><?php echo $this->getChildHtml('cart_sidebar'); ?></div>    					
+    				</div>
     				<?php //echo $this->getChildHtml('topContainer'); ?>    
 					</div>
                 	 <?php //echo $this->getChildHtml('topSearch') ?>

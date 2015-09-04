@@ -36,7 +36,7 @@
     <div class="toolbar-title">
         <select class="currency" name="currency" title="<?php echo $this->__('Select Your Currency') ?>" onchange="setLocation(this.value)">
         <?php foreach ($this->getCurrencies() as $_code => $_name): ?>
-            <option value="<?php echo $this->getSwitchCurrencyUrl($_code) ?>"<?php if($_code==$this->getCurrentCurrencyCode()): ?> selected="selected"<?php endif; ?>>
+            <option value="<?php echo $this->getSwitchCurrencyUrl($_code) ?>" style="background-image:url('<?php echo Mage::getBaseUrl('media').'flag/flag_'.$_code.'.png' ?>');"<?php if($_code==$this->getCurrentCurrencyCode()): ?> selected="selected"<?php endif; ?>>
                 <?php echo $_code ?>
             </option>
         <?php endforeach; ?>

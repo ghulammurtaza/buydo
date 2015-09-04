@@ -28,9 +28,11 @@
 <div class="em-footer-container">
         
 		<div class="container_24">
-        <div class="create-account">
-            <strong>Create an Account</strong> and <strong>refer friends</strong> to <strong>get a gift</strong> which keeps on given <a href="#" class="create-account-link">Create an Account</a>
-        </div>
+                    <?php if (!Mage::getSingleton('customer/session')->isLoggedIn()): ?>
+                        <div class="create-account">
+                            <strong>Create an Account</strong> and <strong>refer friends</strong> to <strong>get a gift</strong> which keeps on given <a href="<?php echo $this->getBaseUrl() ?>customer/account/create" class="create-account-link">Create an Account</a>
+                        </div>
+                    <?php endif; ?>
         
         <div class="instagram">
   <div class="container">
@@ -59,8 +61,15 @@
     	<h4>Signup For Newsletter</h4>
         <p>Sign up to get <strong>10$</strong> off your order</p>
         <div class="newsletter">
-        	<input type="text" placeholder="Enter your Email" />
-            <button>Sing up</button>
+            <form action="<?php echo $this->getBaseUrl() ?>newsletter/subscriber/new" method="post" id="newsletter-validate-detail">
+                <input type="text" name="email" id="newsletter" placeholder="Enter your Email" title="<?php echo $this->__('Sign up for our newsletter') ?>" class="required-entry validate-email" />
+                <button>Sing up</button>
+            </form>
+           <script type="text/javascript">
+            //<![CDATA[
+                var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+            //]]>
+            </script>            
         </div>
     </div>
 	<div class="footer-join-us">
@@ -68,10 +77,10 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent<br>
 ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
 		<div class="social-sahre">
-        	<a href="#" class="fb"><img src="<?php echo $this->getSkinUrl("images/theme/fb.png") ?>"></a>
-            <a href="#" class="tw"><img src="<?php echo $this->getSkinUrl("images/theme/tw.png") ?>"></a>
-            <a href="#" class="insta"><img src="<?php echo $this->getSkinUrl("images/theme/insta.png") ?>"></a>
-            <a href="#" class="pin"><img src="<?php echo $this->getSkinUrl("images/theme/pin.png") ?>"></a>
+                    <a href="https://www.facebook.com/buydokhaonline" target="_blank" class="fb"><img src="<?php echo $this->getSkinUrl("images/theme/fb.png") ?>"></a>
+            <a href="https://twitter.com/BuyDokhaOnline" target="_blank" class="tw"><img src="<?php echo $this->getSkinUrl("images/theme/tw.png") ?>"></a>
+            <a href="https://instagram.com/buydokhaonline/" target="_blank" class="insta"><img src="<?php echo $this->getSkinUrl("images/theme/insta.png") ?>"></a>
+            <a href="https://www.pinterest.com/BuyDokhaOnline/" target="_blank" class="pin"><img src="<?php echo $this->getSkinUrl("images/theme/pin.png") ?>"></a>
         </div>
     </div>
     <div class="clear clr"></div>
@@ -119,12 +128,9 @@ ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
                 <div class="right">
                 	<div class="box">
                 		<p class="h5">Customer Reviews</p>
-                        <div class="review-link"><a href="#">Read More</a></div>
                         <div class="review-box">
-                        	This is actually a nice  Dokha Product  for thoes
-people who live aboard! Well done
+                        
                         </div>
-                        <div class="review-name">Albert P.</div>
                     </div>
                 </div>
                 			            

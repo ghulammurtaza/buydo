@@ -38,11 +38,16 @@ $.fn.insertUl = function(){
         .insertAfter($(this).toggleClass('.toolbar-switch').parent());
 
     var divSpan = $(this).toggleClass('.toolbar-switch').parent().parent().find('span');
-    divSpan.append($(this).parent().children('select').find('option:selected').text());
+    var optionSelected = $(this).parent().children('select').find('option:selected');
+    var bgImage = optionSelected.css('background-image').replace(/^url\(['"]?/,'').replace(/['"]?\)$/,'');    
+    divSpan.append('<img src="' + bgImage + '" />');
+    divSpan.append(optionSelected.text());
 
     var divUl = $(this).toggleClass('.toolbar-switch').parent().parent().find('ul');
     for (var i = 0; i < numOptions; i++) {
-        var text = '<li><a href ="'+$(this).find('option').eq(i).val()+'">'+$(this).find('option').eq(i).text()+'</a></li>';
+        var optionObj = $(this).find('option').eq(i);
+        var optionBgImage = optionObj.css('background-image').replace(/^url\(['"]?/,'').replace(/['"]?\)$/,'');
+        var text = '<li><a href ="'+optionObj.val()+'"><img src="'+optionBgImage+'"/>'+optionObj.text()+'</a></li>';
        //$('<li />').text(text).appendTo(divUl);
        divUl.append(text);
     }
